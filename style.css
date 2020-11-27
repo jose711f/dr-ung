@@ -1,0 +1,23 @@
+/*------------------------ FONTS-------------------*/
+
+@font-face {
+    src: url(fonts/DRPublic-Regular.otf);
+    font-family: dr-reg;
+}
+
+@font-face {
+    src: url(fonts/DRPublic-SemiBold.oft);
+    font-family: dr-semi;
+}
+
+@font-face {
+    src: url(fonts/DRPublic-Bold.oft);
+    font-family: dr-bold;
+}
+
+@font-face {
+    src: url(fonts/DRPublic-Black.oft);
+    font-family: dr-black;
+}
+
+/*------------------ FONTS SLUT ---------------------*/
