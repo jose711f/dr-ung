@@ -5,23 +5,26 @@
     font-family: dr-reg;
 }
 
-@font-face {
-    src: url(fonts/DRPublic-SemiBold.oft);
-    font-family: dr-semi;
 }
 
 @font-face {
     src: url(fonts/DRPublic-Bold.oft);
     font-family: dr-bold;
 }
-*/
+
 @font-face {
     src: url(fonts/DRPublic-Black.oft) format("opentype");
     font-family: dr-black;
 }
+*/
+
+@font-face {
+    src: url(fonts/DRPublik-SemiBold.ttf);
+    font-family: dr-semi;
+}
 
 h2 {
-    font-family: "dr-black";
+    font-family: "dr-semi";
     font-size: 2rem;
 }
 
