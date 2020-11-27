@@ -1,5 +1,5 @@
 /*------------------------ FONTS-------------------*/
-
+/*
 @font-face {
     src: url(fonts/DRPublic-Regular.otf);
     font-family: dr-reg;
@@ -14,10 +14,15 @@
     src: url(fonts/DRPublic-Bold.oft);
     font-family: dr-bold;
 }
-
+*/
 @font-face {
-    src: url(fonts/DRPublic-Black.oft);
+    src: url(fonts/DRPublic-Black.oft) format("opentype");
     font-family: dr-black;
+}
+
+h2 {
+    font-family: "dr-black";
+    font-size: 2rem;
 }
 
 /*------------------ FONTS SLUT ---------------------*/
