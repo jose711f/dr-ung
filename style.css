@@ -1,4 +1,32 @@
-/*------------------------ FONTS-------------------*/
+/**************************************************/
+/******************* COLORS ***********************/
+/**************************************************/
+
+:root {
+    --text-black: #000000;
+    --text-white: #ffffff;
+    --text-darkgrey: #999999;
+    --text-lightgrey: #d2d2d2;
+
+    --header-text-color: #000000;
+    --link-color: #000000;
+    --link-hover-color: #000000;
+
+    --background-white: #ffffff;
+    --background-lightgrey: #f2f2f2;
+    --background-darkgrey: #333333;
+
+    --pink: #FF32E6;
+    --green: #00BE00;
+    --yellow: #F5D237;
+    --blue: #2d2dc3;
+    --creme: #fae6d2;
+    --tyrkis: #8ce1d7;
+}
+
+/**************************************************/
+/******************** FONTS ***********************/
+/**************************************************/
 
 @font-face {
     src: url(fonts/DRPublik-Regular.ttf);
@@ -20,16 +48,74 @@
     font-family: dr-black;
 }
 
+/*------------------ FONT STYLE ----------------*/
 
+h1 {
+    font-family: "dr-black";
+    font-size: 2.5rem;
+    color: var(--text-black);
+}
 
 h2 {
-    font-family: "dr-semi";
+    font-family: "dr-black";
     font-size: 2rem;
+    color: var(--text-black);
+}
+
+h3 {
+    font-family: "dr-bold";
+    font-size: 1.6rem;
+    color: var(--text-black);
+}
+
+h4 {
+    font-family: "dr-bold";
+    font-size: 1.6rem;
+    color: var(--text-white);
+}
+
+h5 {
+    font-family: "dr-semi";
+    font-size: 1rem;
+    color: var(--text-darkgrey);
+}
+
+h6 {
+    font-family: "dr-semi";
+    font-size: 0.8rem;
+    color: var(--text-darkgrey);
 }
 
 p {
     font-family: "dr-reg";
     font-size: 1rem;
+    color: var(--text-lightgrey);
 }
 
-/*------------------ FONTS SLUT ---------------------*/
+.grey-text {
+    color: var(--text-lightgrey);
+}
+
+.dark-text {
+    color: var(--text-black);
+}
+
+.white-text {
+    color: var(--text-white);
+}
+
+/*------------------ NAV STYLE ------------------*/
+
+a {
+    font-family: "dr-reg";
+    font-size: 1rem;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/**************************************************/
+/******************* NAVIGATION *******************/
+/**************************************************/
