@@ -1,31 +1,35 @@
 /*------------------------ FONTS-------------------*/
-/*
+
 @font-face {
-    src: url(fonts/DRPublic-Regular.otf);
+    src: url(fonts/DRPublik-Regular.ttf);
     font-family: dr-reg;
 }
-
-}
-
-@font-face {
-    src: url(fonts/DRPublic-Bold.oft);
-    font-family: dr-bold;
-}
-
-@font-face {
-    src: url(fonts/DRPublic-Black.oft) format("opentype");
-    font-family: dr-black;
-}
-*/
 
 @font-face {
     src: url(fonts/DRPublik-SemiBold.ttf);
     font-family: dr-semi;
 }
 
+@font-face {
+    src: url(fonts/DRPublik-Bold.ttf);
+    font-family: dr-bold;
+}
+
+@font-face {
+    src: url(fonts/DRPublik-Black.ttf);
+    font-family: dr-black;
+}
+
+
+
 h2 {
     font-family: "dr-semi";
     font-size: 2rem;
+}
+
+p {
+    font-family: "dr-reg";
+    font-size: 1rem;
 }
 
 /*------------------ FONTS SLUT ---------------------*/
