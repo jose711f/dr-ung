@@ -119,3 +119,13 @@ a:hover {
 /**************************************************/
 /******************* NAVIGATION *******************/
 /**************************************************/
+
+#drdk {
+    background-color: var(--background-darkgrey);
+}
+
+a.nav-aktiv {
+    font-family: "dr-semi";
+    text-decoration: underline;
+    text-decoration-color: var(--pink)
+}
