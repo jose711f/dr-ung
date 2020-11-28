@@ -1,5 +1,21 @@
 /**************************************************/
-/******************* COLORS ***********************/
+/****************** CSS INDHOLD *******************/
+/**************************************************/
+/*
+
+1.0 COLORS
+2.0 FONTS
+2.1 Font style
+2.2 Nav style
+3.0 NAVIGATION
+4.0 GENEREL
+4.1 Baggrundsfarver
+4.2 Card style
+4.3 Dividers next to h2's
+*/
+
+/**************************************************/
+/******************** COLORS **********************/
 /**************************************************/
 
 :root {
@@ -54,23 +70,26 @@ h1 {
     font-family: "dr-black";
     font-size: 2.5rem;
     color: var(--text-black);
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: "dr-black";
     font-size: 2rem;
     color: var(--text-black);
+    text-transform: uppercase
 }
 
 h3 {
     font-family: "dr-bold";
     font-size: 1.6rem;
     color: var(--text-black);
+    text-transform: uppercase;
 }
 
 h4 {
     font-family: "dr-bold";
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: var(--text-white);
 }
 
@@ -84,6 +103,7 @@ h6 {
     font-family: "dr-semi";
     font-size: 0.8rem;
     color: var(--text-darkgrey);
+    text-transform: uppercase;
 }
 
 p {
@@ -110,6 +130,7 @@ a {
     font-family: "dr-reg";
     font-size: 1rem;
     color: var(--link-color);
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -129,3 +150,46 @@ a.nav-aktiv {
     text-decoration: underline;
     text-decoration-color: var(--pink)
 }
+
+/**************************************************/
+/******************** GENEREL *********************/
+/**************************************************/
+
+/*--------------- baggrundsfarver ----------------*/
+
+.bg-lightgrey {
+    background-color: vat(--background-lightgrey);
+}
+
+/*------------------ CARD STYLE ------------------*/
+
+.card {
+    border: none;
+    background-color: var(--background-darkgrey);
+    border-radius: 0;
+}
+
+.card-icon {
+    width: 10px;
+    height: 10px;
+    margin: 3px 3px 3px 0px;
+}
+
+.card p {
+    font-size: 0.8rem;
+}
+
+/*--------------Dividers next to h2's ------------*/
+
+/*    OBS: ALLE HR SKAL HAVE DERES EGEN KLASSE OG TILPASSES I FORSKELLIGE STØRRELSER!!    */
+.hr-green {
+    border: 3px solid;
+    border-color: var(--green);
+    width: 50%;
+    margin-left: ;
+    margin-right: 0;
+}
+
+/**************************************************/
+/******************** FORSIDE *********************/
+/**************************************************/
