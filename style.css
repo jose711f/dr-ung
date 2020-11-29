@@ -12,6 +12,10 @@
 4.1 Baggrundsfarver
 4.2 Card style
 4.3 Dividers next to h2's
+4.4 bokse til ovenpå indhold
+4.5 footer
+5.0 FORSIDE
+
 */
 
 /**************************************************/
@@ -38,6 +42,10 @@
     --blue: #2d2dc3;
     --creme: #fae6d2;
     --tyrkis: #8ce1d7;
+}
+
+.bg-darkgrey {
+    background-color: var(--background-darkgrey);
 }
 
 /**************************************************/
@@ -87,7 +95,6 @@ h3 {
     font-family: "dr-bold";
     font-size: 1.6rem;
     color: var(--text-black);
-    text-transform: uppercase;
 }
 
 h4 {
@@ -204,13 +211,19 @@ a.nav-aktiv {
     bottom: 0px;
 }
 
-/*----OBS: skal være responsiv, ligenu virker den kun i lille--*/
+/*OBS: skal være responsiv, ligenu virker den kun i lille*/
 .small-box {
     background-color: var(--background-white);
     padding: 10px;
     margin: 10px;
     position: absolute;
     bottom: 0px;
+}
+
+/*-------------footer----------*/
+
+.some-footer {
+    width: 20px;
 }
 
 /**************************************************/
