@@ -78,7 +78,7 @@ h2 {
     font-size: 2rem;
     color: var(--text-black);
     text-transform: uppercase;
-    background-color: white;
+    background-color: var(--background-white);
     padding-right: 20px;
     z-index: 300;
 }
@@ -192,6 +192,25 @@ a.nav-aktiv {
     position: relative;
     top: -40px;
     z-index: 1;
+}
+
+/*---------- bokse til ovenpå indhold ------------*/
+
+.big-box {
+    background-color: var(--background-white);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*----OBS: skal være responsiv, ligenu virker den kun i lille--*/
+.small-box {
+    background-color: var(--background-white);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
 }
 
 /**************************************************/
