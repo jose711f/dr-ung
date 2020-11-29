@@ -77,7 +77,10 @@ h2 {
     font-family: "dr-black";
     font-size: 2rem;
     color: var(--text-black);
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-color: white;
+    padding-right: 20px;
+    z-index: 300;
 }
 
 h3 {
@@ -181,13 +184,14 @@ a.nav-aktiv {
 
 /*--------------Dividers next to h2's ------------*/
 
-/*    OBS: ALLE HR SKAL HAVE DERES EGEN KLASSE OG TILPASSES I FORSKELLIGE STØRRELSER!!    */
 .hr-green {
-    border: 3px solid;
+    border: 2px solid;
     border-color: var(--green);
-    width: 50%;
-    margin-left: ;
-    margin-right: 0;
+    display: inline;
+    width: 100%;
+    position: relative;
+    top: -40px;
+    z-index: 1;
 }
 
 /**************************************************/
