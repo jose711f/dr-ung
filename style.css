@@ -99,7 +99,7 @@ h3 {
 
 h4 {
     font-family: "dr-bold";
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-white);
 }
 
@@ -111,7 +111,7 @@ h5 {
 
 h6 {
     font-family: "dr-semi";
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--text-darkgrey);
     text-transform: uppercase;
 }
@@ -186,7 +186,15 @@ a.nav-aktiv {
 }
 
 .card p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.carousel-item .card {
+    width: 15rem;
 }
 
 /*--------------Dividers next to h2's ------------*/
