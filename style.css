@@ -11,10 +11,13 @@
 4.0 GENEREL
 4.1 Baggrundsfarver
 4.2 Card style
-4.3 Dividers next to h2's
-4.4 bokse til ovenpå indhold
-4.5 footer
+4.3 Carousel
+4.4 Dividers next to h2's
+4.5 bokse til ovenpå indhold
+4.6 footer
+4.7 knapper
 5.0 FORSIDE
+x.x. Media queries
 
 */
 
@@ -46,6 +49,10 @@
 
 .bg-darkgrey {
     background-color: var(--background-darkgrey);
+}
+
+.bg-lightgrey {
+    background-color: var(--background-lightgrey);
 }
 
 /**************************************************/
@@ -177,6 +184,7 @@ a.nav-aktiv {
     border: none;
     background-color: var(--background-darkgrey);
     border-radius: 0;
+    margin: auto;
 }
 
 .card-icon {
@@ -194,7 +202,41 @@ a.nav-aktiv {
 }
 
 .carousel-item .card {
-    width: 15rem;
+    width: 80%;
+}
+
+/*----------------- Carousel style ---------------*/
+
+.carousel-control-prev {
+    background-color: #00BE00;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
+.carousel-control-next {
+    background-color: #00BE00;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
+.carousel-row {
+    margin: auto;
+    width: 95%;
+}
+
+.kanal-img {
+    width: 15%;
+    height: 100%;
+    align-self: center;
+}
+
+/*---SKAL TILPASSES I MeQu*/
+#kanalblok .carousel-row {
+    width: 500px;
 }
 
 /*--------------Dividers next to h2's ------------*/
@@ -234,6 +276,44 @@ a.nav-aktiv {
     width: 20px;
 }
 
+/*------------------knap------------------*/
+
+.knap {
+    background-color: var(--background-darkgrey);
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
 /**************************************************/
 /******************** FORSIDE *********************/
 /**************************************************/
+
+/**************************************************/
+/****************** MEDIA QUERIES *****************/
+/**************************************************/
+
+@media (min-width: 576px) {
+    .carousel-item .card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item .card {
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    ...
+}
+
+@media (min-width: 1200px) {
+    .carousel-item .card {
+        width: 23%;
+    }
+}
