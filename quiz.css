@@ -1,0 +1,58 @@
+#quiz {
+    background-image: url(billeder/ui/5.element-01.png);
+    background-size: contain;
+}
+
+#quiz h3 {
+    color: var(--text-darkgrey);
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: var(--pink);
+}
+
+#quiz-resultat p {
+    color: var(--text-darkgray);
+    margin: 10px 0px 0px 0px;
+}
+
+.progress {
+    max-width: 600px;
+    background-color: var(--background-lightgrey);
+}
+
+.progress-bar {
+    background-color: var(--green);
+}
+
+.display-1 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+mark {
+    background-color: var(--pink);
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+
+    .display-1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .display-1 {
+        font-size: 2.5rem;
+    }
+
+}
