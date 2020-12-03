@@ -188,7 +188,11 @@ a.nav-aktiv {
 /*--------------- baggrundsfarver ----------------*/
 
 .bg-lightgrey {
-    background-color: vat(--background-lightgrey);
+    background-color: var(--background-lightgrey);
+}
+
+.bg-tyrkis {
+    background-color: var(--tyrkis);
 }
 
 /*------------------ CARD STYLE ------------------*/
@@ -240,12 +244,28 @@ a.nav-aktiv {
     opacity: 100%;
 }
 
+.carousel-control-prev .lyseroed {
+    background-color: #FF32E6;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
+.carousel-control-next .lyseroed {
+    background-color: #FF32E6;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
 .storkarusel.carousel-control-prev {
-    height: 100%
+    height: 10%
 }
 
 .storkarusel.carousel-control-next {
-    height: 100%
+    height: 10%
 }
 
 .carousel-row {
@@ -317,17 +337,6 @@ a.nav-aktiv {
     width: 100px;
 }
 
-/*------------------knap------------------*/
-
-.knap {
-    background-color: var(--background-darkgrey);
-    color: white;
-    width: 150px;
-    padding: 5px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 5px;
-}
 
 /**************************************************/
 /******************** FORSIDE *********************/
@@ -422,6 +431,54 @@ mark {
 }
 
 /**************************************************/
+/******************** SERIER *********************/
+/**************************************************/
+
+/*------------------kategorier knap------------------*/
+#kategorier .row {
+    padding: 15px;
+}
+
+.kategori {
+    background-color: var(--background-darkgrey);
+    padding: 12px 0;
+    text-align: center;
+    max-width: 30%;
+    margin: 15px auto 10px;
+}
+
+.knap {
+    color: white;
+}
+
+.knap a:hover {
+    color: var(--text-lightgrey);
+}
+
+
+/*------------------ sections ------------------*/
+
+#mest-sete .container {
+    padding: 15px;
+}
+
+#mest-sete .container .overskrift {
+    padding: 10px 15px 0;
+}
+
+#dr3nyt .container {
+    padding: 15px;
+}
+
+#film .container {
+    padding: 15px;
+}
+
+#film .container .overskrift {
+    padding: 10px 15px 0;
+}
+
+/**************************************************/
 /****************** MEDIA QUERIES *****************/
 /**************************************************/
 
@@ -447,6 +504,8 @@ mark {
     #kanalblok .carousel-row {
         width: 550px;
     }
+
+
 }
 
 @media (min-width: 992px) {
@@ -462,6 +521,19 @@ mark {
     .display-1 {
         font-size: 1.5rem;
     }
+
+    .kategori {
+        max-width: 15%;
+        margin: 15px auto;
+    }
+
+    .kategori:first-child {
+        margin-left: 0;
+    }
+
+    .kategori:last-child {
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -472,5 +544,4 @@ mark {
     #kanalblok .carousel-row {
         width: 900px;
     }
-
 }
