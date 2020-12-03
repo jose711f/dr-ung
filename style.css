@@ -143,7 +143,7 @@ p {
 
 /*------------------ NAV STYLE ------------------*/
 
-a {
+.navbar a {
     font-family: "dr-reg";
     font-size: 1rem;
     color: var(--link-color);
@@ -160,12 +160,20 @@ a:hover {
 
 #drdk {
     background-color: var(--background-darkgrey);
+    text-transform: uppercase;
+    font-family: "dr-semi";
+    padding: 5px 0;
 }
 
 a.nav-aktiv {
     font-family: "dr-semi";
     text-decoration: underline;
-    text-decoration-color: var(--pink)
+    text-decoration-color: var(--pink);
+}
+
+.navbar {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /**************************************************/
@@ -188,7 +196,7 @@ a.nav-aktiv {
 }
 
 .card-body {
-    height: 200px;
+    height: 215px;
 }
 
 .card-icon {
@@ -198,7 +206,7 @@ a.nav-aktiv {
 }
 
 .card p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .card a {
@@ -247,6 +255,10 @@ a.nav-aktiv {
 
 #kanalblok .card-body {
     height: 220px;
+}
+
+#carouselExampleControls {
+    padding-bottom: 25px;
 }
 
 /*--------------Dividers next to h2's ------------*/
@@ -301,6 +313,22 @@ a.nav-aktiv {
 /**************************************************/
 /******************** FORSIDE *********************/
 /**************************************************/
+
+#populaert .container {
+    padding: 15px;
+}
+
+#populaert .container .overskrift {
+    padding: 10px 15px 0;
+}
+
+#anbefalinger .container {
+    padding: 15px;
+}
+
+#anbefalinger .container .overskrift {
+    padding: 10px 15px 0;
+}
 
 /**************************************************/
 /****************** MEDIA QUERIES *****************/
