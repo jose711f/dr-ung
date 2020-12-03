@@ -233,14 +233,19 @@ a.nav-aktiv {
 }
 
 .kanal-img {
-    width: 15%;
+    width: 20%;
+    margin-right: 15px;
     height: 100%;
     align-self: center;
 }
 
-/*---SKAL TILPASSES I MeQu*/
 #kanalblok .carousel-row {
-    width: 500px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+#kanalblok .card-body {
+    height: 220px;
 }
 
 /*--------------Dividers next to h2's ------------*/
@@ -304,20 +309,53 @@ a.nav-aktiv {
     .carousel-item .card {
         width: 45%;
     }
+
+    .kanal-img {
+        width: 18%;
+        margin-right: 20px;
+    }
+
+    #kanalblok .carousel-row {
+        width: 399px;
+    }
+
+    #kanalblok .card-body {
+        height: 250px;
+    }
 }
 
 @media (min-width: 768px) {
     .carousel-item .card {
         width: 30%;
     }
+
+    .kanal-img {
+        width: 15%;
+    }
+
+    #kanalblok .carousel-row {
+        width: 550px;
+    }
 }
 
 @media (min-width: 992px) {
-    ...
+
+    #kanalblok .carousel-row {
+        width: 730px;
+    }
+
+    #kanalblok .card-body {
+        height: 210px;
+    }
 }
 
 @media (min-width: 1200px) {
     .carousel-item .card {
         width: 23%;
     }
+
+    #kanalblok .carousel-row {
+        width: 900px;
+    }
+
 }
