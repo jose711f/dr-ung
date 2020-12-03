@@ -232,13 +232,6 @@ a.nav-aktiv {
     width: 95%;
 }
 
-.kanal-img {
-    width: 20%;
-    margin-right: 15px;
-    height: 100%;
-    align-self: center;
-}
-
 #kanalblok .carousel-row {
     width: 250px;
     margin-left: 20px;
@@ -310,11 +303,6 @@ a.nav-aktiv {
         width: 45%;
     }
 
-    .kanal-img {
-        width: 18%;
-        margin-right: 20px;
-    }
-
     #kanalblok .carousel-row {
         width: 399px;
     }
@@ -327,10 +315,6 @@ a.nav-aktiv {
 @media (min-width: 768px) {
     .carousel-item .card {
         width: 30%;
-    }
-
-    .kanal-img {
-        width: 15%;
     }
 
     #kanalblok .carousel-row {
