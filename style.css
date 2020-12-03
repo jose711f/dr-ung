@@ -187,6 +187,10 @@ a.nav-aktiv {
     margin: auto;
 }
 
+.card-body {
+    height: 200px;
+}
+
 .card-icon {
     width: 10px;
     height: 10px;
