@@ -278,6 +278,16 @@ a.nav-aktiv {
     z-index: 1;
 }
 
+.hr-pink {
+    border: 2px solid;
+    border-color: var(--pink);
+    display: inline;
+    width: 100%;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+}
+
 /*---------- bokse til ovenpå indhold ------------*/
 
 .big-box {
