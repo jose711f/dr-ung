@@ -40,30 +40,67 @@
 
         <!---------------- top sektion ---------------->
 
-        <section id="top" class="container">
+        <section id="top" class="container-fluid">
+            <div class="container pt-4">
+                <!--BRED KARUSEL - navn: video2-->
 
-            <hr class="solid">
+                <div id="serier1" class="carousel slide multi-item-carousel" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="item__third">
+                                <img src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" class="d-block w-100" alt="">
+                                <div class="carousel-caption d-none d-md-block bg-white p-1">
+                                    <row>
+                                        <h3 class="ml-3 mb-0 text-left">Hvem vil voldtage Louise</h3>
+                                    </row>
+                                    <row class="d-flex">
+                                        <img class="ml-3 card-icon" src="billeder/ui/video-01.png" alt="billedetekst">
+                                        <h6 class="mb-0">serier | dokumentar</h6>
+                                    </row>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item__third">
+                                <img src="billeder/card-billeder/serier/serier_2+_alle-hader-feminister.jpeg" class="d-block w-100" alt="">
+                                <div class="carousel-caption d-none d-md-block bg-white p-1">
+                                    <row>
+                                        <h3 class="ml-3 mb-0 text-left">Alle hader feminister</h3>
+                                    </row>
+                                    <row class="d-flex">
+                                        <img class="ml-3 card-icon" src="billeder/ui/video-01.png" alt="billedetekst">
+                                        <h6 class="mb-0">serier | dokumentar</h6>
+                                    </row>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item__third">
+                                <img src="billeder/card-billeder/serier/serier_fiktion_normale-mennesker.jpeg" class="d-block w-100" alt="">
+                                <div class="carousel-caption d-none d-md-block bg-white p-1">
+                                    <row>
+                                        <h3 class="ml-3 mb-0 text-left">Normale mennesker</h3>
+                                    </row>
+                                    <row class="d-flex">
+                                        <img class="ml-3 card-icon" src="billeder/ui/video-01.png" alt="billedetekst">
+                                        <h6 class="mb-0">serier | fiktion</h6>
+                                    </row>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div id="serier1" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="billeder/card-billeder/serier/serier_2+_alle-hader-feminister.jpeg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="billeder/card-billeder/serier/serier_livsstil_gift.jpeg" alt="Third slide">
-                    </div>
+                    <a class="carousel-control-prev" href="#serier1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#serier1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
                 </div>
-                <a class="carousel-control-prev storkarusel" href="#serier1" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next storkarusel" href="#serier1" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+
             </div>
         </section>
 
@@ -128,15 +165,15 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
                                                 <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
                                             <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. </p>
                                             <div class="row kanalinfo">
                                                 <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
                                                 <p class="ml-2"> DR3</p>
@@ -147,45 +184,57 @@
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_taet-sandheden.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Tæt på sandheden</h4>
+                                            <p>Comedyshow hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_cougarjagt.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>Cougarjagt - Ung mand søger moden kvinde</h4>
+                                            <p>Kærlighed kender ingen alder. Siger man. Hvad nu hvis man dater en som er dobbelt så gammel?</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Den falske caster</h4>
+                                            <p>Den falske caster gør sig umage for at skjule sin rigtige identitet, men alle digitale forbrydelser efterlader spor.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/2-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR2+</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -200,60 +249,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_koden.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Koden til kærlighed</h4>
+                                            <p>Kærlighed er den sværeste gåde at løse. I årevis har utallige datingprogrammer forsøgt at sammensætte par.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_noget-emma.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Noget om Emma</h4>
+                                            <p>27-årige Vitus er kørt fast i sit liv, indtil han en dag møder Emma. Hun er alt det, han ikke er - optimistisk og eventyrlysten.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_frygtlig-kvinde.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>En frygtelig kvinde</h4>
+                                            <p>Dansk spillefilm fra 2017. Da Rasmus møder Marie, er han sikker på, at han endelig har mødt sit livs kærlighed.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_poellehullet.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Pøllehullet - det brune værtshus</h4>
+                                            <p>Tag med en tur på Pøllehullet og få en velskænket omgang mørk og absurd satire.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -372,7 +437,7 @@
                                                         <h6 class="ml-2"> serie | tværs</h6>
                                                     </div>
                                                     <h4>Alle har set Ronja nøgen</h4>
-                                                    <p>Ronjas nøgenbilleder blev spredt over hele landet med lynets hast. Selv om hun kun var 11-12 år gammel, da hun sendte de første til en fyr, hun var vild med.</p>
+                                                    <p>Ronjas nøgenbilleder blev spredt over hele landet med lynets hast. Selv om hun kun var 11-12 år gammel.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -440,16 +505,9 @@
             </div>
         </section>
 
-        <section id="dr2+nyt" class="container-fluid bg-tyrkis">
+        <section id="dr2+nyt" class="container-fluid bg-blue">
 
             <div class="container mb-4 pad-container">
-
-                <!--
-                <div class="row overskrift">
-                    overskrift med linje
-                    <h2 class="bg-tyrkis pt-4 pb-2">Nyt fra DR3</h2>
-                </div>
--->
 
                 <div id="kanalblok" class="row">
 
@@ -477,7 +535,7 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3" alt="serie ikon">
-                                                        <h6 class="ml-2"> serie | DR2+ </h6>
+                                                        <h6 class="ml-2"> serie | livsstil </h6>
                                                     </div>
                                                     <h4>Alle hader feminister</h4>
                                                     <p>Alle hader feminister! De er skingre, besværlige, menstruerende og pisse irriterende. I dag er det nærmest et decideret skældsord i Danmark.</p>
@@ -492,7 +550,7 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                        <h6 class="ml-2"> serier | DR2+</h6>
+                                                        <h6 class="ml-2"> serier | kultur</h6>
                                                     </div>
                                                     <h4>Cornflakes med lort og død ved kølle</h4>
                                                     <p>I denne serie går vi bag kulisserne på nogle af de største humorhits fra slutningen af 90'erne og starten af 00'erne!</p>
@@ -507,7 +565,7 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3" alt="serier ikon">
-                                                        <h6 class="ml-2"> serier | DR2+</h6>
+                                                        <h6 class="ml-2"> serier | livsstil</h6>
                                                     </div>
                                                     <h4>Den falske caster</h4>
                                                     <p>Den falske caster gør sig umage for at skjule sin rigtige identitet, men alle digitale forbrydelser efterlader spor. </p>
@@ -529,7 +587,7 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                        <h6 class="ml-2"> serie | DR2+</h6>
+                                                        <h6 class="ml-2"> serie | Livsstil</h6>
                                                     </div>
                                                     <h4>En farlig arv</h4>
                                                     <p>Hjerneforskningen og teknologien, der kan måle vores hjerne, er i rivende udvikling. Jon Sigurd Wegener har en grad i neurovidenskab.</p>
@@ -544,7 +602,7 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                        <h6 class="ml-2"> serie | DR2+</h6>
+                                                        <h6 class="ml-2"> serie | dokumentar</h6>
                                                     </div>
                                                     <h4>Hornsleth er død</h4>
                                                     <p>Er Kristian von Hornsleth bare en boomer eller er han, med sin provokerende kunst, konsekvent blevet misforstået af alle os andre?</p>
@@ -559,10 +617,10 @@
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <img src="billeder/ui/serier-01.png" class="card-icon ml-3" alt="serie ikon">
-                                                        <h6 class="ml-2"> serie | DR2+</h6>
+                                                        <h6 class="ml-2"> serie | dokumentar</h6>
                                                     </div>
                                                     <h4>Sektlederens hemmeligheder</h4>
-                                                    <p>Sektlederens hemmeligheder er en historie om ensomhed og fælleskabets store styrke og om religionens fantastiske kræfter.</p>
+                                                    <p>En historie om ensomhed og fælleskabets store styrke og om religionens fantastiske kræfter.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -574,11 +632,11 @@
                             </div>
 
                             <!--pile-->
-                            <a class="carousel-control-prev" href="#serier10" role="button" data-slide="prev">
+                            <a class="carousel-control-prev lyseblaa" href="#serier10" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#serier10" role="button" data-slide="next">
+                            <a class="carousel-control-next lyseblaa" href="#serier10" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -618,60 +676,76 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_aakte-vare.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <h4>Ækte vare</h4>
+                                            <p>Dansk spillefilm fra 2014. Mikael er vokset op i Brøndby Strand. Han har en drøm om at leve af at rappe og lave musik. </p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_charmoeren.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Charmøren</h4>
+                                            <p>Dansk spillefilm fra 2018. Hver aften vender den charmerende Esmail tilbage til samme vinbar for at forføre kvinder. </p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_frygtlig-kvinde.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>En frygtelig kvinde</h4>
+                                            <p>Dansk spillefilm fra 2017. Da Rasmus møder Marie, er han sikker på, at han endelig har mødt sit livs kærlighed.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_holiday.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Holiday</h4>
+                                            <p>Dansk-svensk Bodilbelønnet drama fra 2018. I en villa med pool og udsigt over den tyrkiske riviera slår Michael dagene ihjel.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -686,60 +760,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_cutterhead.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Cutterhead</h4>
+                                            <p>Dansk spillefilm fra 2019. Ries arbejde fører hende 20 meter under Københavns gader, hvor hun skal dokumentere metrobyggeriet.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_usynligt-hjerte.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Usynligt hjerte</h4>
+                                            <p>Dansk drama fra 2018. Ekspornoskuespilleren Laura føler sig forfulgt af fortiden og forsøger at få en ny tilværelse på benene.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_jagten.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Jagten</h4>
+                                            <p>Prisvindende dansk spillefilm fra 2013. Den 40-årige fraskilte familiefar, Lucas, står foran en genforening med sin søn.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_film_datter.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | film</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Skammerens datter</h4>
+                                            <p>Prisvindende dansk spillefilm fra 2015. Dina, Skammerens Datter, har arvet sin mors overnaturlige evner.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/DRTV_logo_primaer_RGB.png" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DRTV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -765,7 +855,7 @@
             </div>
         </section>
 
-        <!--------------- dokumentare --------------->
+        <!--------------- dokumentarer --------------->
 
         <section id="dokumentarer" class="container-fluid bg-lightgrey">
 
@@ -791,8 +881,8 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_abort-baby.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_abort-baby.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
@@ -810,15 +900,15 @@
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
                                                 <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
                                             <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Pigerne skriger stadig, men voksenlivet presser på.</p>
+                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Pigerne skriger stadig, men voksenlivet presser på. Og det er ikke altid nemt...</p>
                                             <div class="row kanalinfo">
                                                 <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
                                                 <p class="ml-2"> DR3</p>
@@ -829,8 +919,8 @@
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_hornsleth.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_hornsleth.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
@@ -839,8 +929,8 @@
                                             <h4>Hornsleth er død</h4>
                                             <p>Er Kristian von Hornsleth bare en boomer eller er han, med sin provokerende kunst, konsekvent blevet misforstået?</p>
                                             <div class="row kanalinfo">
-                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
-                                                <p class="ml-2"> DR3</p>
+                                                <img src="billeder/ui/2-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR2+</p>
                                             </div>
                                         </div>
                                     </a>
@@ -848,8 +938,8 @@
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_landet-forkert-familie.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_landet-forkert-familie.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
@@ -875,8 +965,8 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_vi-koenshaar.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_vi-koenshaar.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
@@ -894,15 +984,15 @@
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
                                                 <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
                                             <h4>Tessas hævn</h4>
-                                            <p>Tessa er Danmarks nye rå rapper med en fortid fuld af hemmeligheder. </p>
+                                            <p>Tessa er Danmarks nye rå rapper med en fortid fuld af hemmeligheder. Hun har levet et langt liv på kort tid.</p>
                                             <div class="row kanalinfo">
                                                 <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
                                                 <p class="ml-2"> DR3</p>
@@ -913,15 +1003,15 @@
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_styret-stemmer.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar%20_styret-stemmer.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
                                                 <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
                                             <h4>Styret af stemmer</h4>
-                                            <p>Forestil dig, at det der foregår lige foran øjnene af dig, faktisk ikke er virkeligheden.</p>
+                                            <p>Forestil dig, at det der foregår lige foran øjnene af dig, faktisk ikke er virkeligheden, men kun foregår oppe i dit hoved?</p>
                                             <div class="row kanalinfo">
                                                 <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
                                                 <p class="ml-2"> DR3</p>
@@ -932,11 +1022,11 @@
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_verdens-gamer.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_verdens-gamer.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
                                                 <h6 class="ml-2"> serie | dokumentar</h6>
                                             </div>
                                             <h4>Verdens hurtigste gamer</h4>
@@ -996,60 +1086,76 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_doggystyle.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <h4>Doggystyke</h4>
+                                            <p>Asta drømmer om at blive elsket og beundret. Hun søger kærligheden i en mand med det rigtige image og jagter en karriere som skuespiller.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_normale-mennesker.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Normale mennesker</h4>
+                                            <p>Det første møde med kærligheden. Dramaserien 'Normale mennesker' bygger på Sally Rooneys prisbelønnede succesroman.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_noget-emma.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>Noget om Emma</h4>
+                                            <p>27-årige Vitus er kørt fast i sit liv, indtil han en dag møder Emma. Hun er alt det, han ikke er - optimistisk og eventyrlysten.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Natten til lørdag</h4>
+                                            <p>Natten til lørdag er en serie om, hvor svært det kan være at aflæse sine egne og andres grænser - og stå ved dem.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1064,60 +1170,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_skam.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Skam</h4>
+                                            <p>Norsk dramaserie. Den norske ungdomsserie Skam er blevet en kæmpesucces i hjemlandet. Nu kan du følge den på DR3.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_10-aar.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>10 år senere</h4>
+                                            <p>Micki og Lars har været kærester i et helt årti, og nu er hverdagen for alvor sat ind. Lars vil pludselig realisere sig selv som studerende.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_buksemyndig.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Buksemyndig</h4>
+                                            <p>Gunnhild flytter hjemmefra. Møder mennesker. Ting sker. Livet starter og/eller fortsætter i samme retning.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_om-natten.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | fiktion</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Om natten lyver jeg aldrig</h4>
+                                            <p>AYosef lever et skjult dobbeltliv. Hans familie kommer på sporet af hemmeligheden og han må nu sætte alt på spil.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1169,60 +1291,76 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_gift.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <h4>Gift ved første blik</h4>
+                                            <p>I et eksperiment har 8 singler indvilliget i at lade sig gifte med et menneske, de aldrig har mødt før. Singlerne bliver matchet.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_billet-kaerlighed.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Billet til kærlighed</h4>
+                                            <p>Fire modige singler har sagt ja til at deltage i et datingeksperiment. De skal ud at rejse med en date, de ikke kender.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_hjertestop.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>Hjertestop</h4>
+                                            <p>Hvordan føles kærestesorgen, når man står midt i den? I denne serie kommer vi helt tæt på 8 unge danskere, som er blevet forladt.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_cougarjagt.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Cougarjagt - Ung mand søger moden kvinde</h4>
+                                            <p>Kærlighed kender ingen alder. Siger man. Hvad nu hvis man dater en som er dobbelt så gammel?</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1237,60 +1375,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_koden.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Koden til kærlighed</h4>
+                                            <p>Kærlighed er den sværeste gåde at løse. I årevis har utallige datingprogrammer forsøgt at sammensætte par.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_date-side.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Date min værste side</h4>
+                                            <p>Hvad sker der, når singler blotter sig, og hvor grænseoverskridende føles det at være hudløst ærlig om det UPERFEKTE.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_for-genert.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>For genert til at date - kærligheden findes i virtual reality</h4>
+                                            <p>Det er nervepirrende, når to par for første gang skal møde hinanden.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_livsstil_mit-match.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | livsstil</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Mit hemmelige match</h4>
+                                            <p>Nerverne er ude på tøjet, når deltagerne i kollektivet møder hinanden for allerførste gang. Det vigtige førstehåndsindtryk.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1342,60 +1496,76 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_nul-stjerner.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <h4>Nul stjerner</h4>
+                                            <p>Eventyrerne Jan Elhøj og Morten Kirckhoff drager på utraditionelle rejser, hvor de undersøger det værste udgangspunkt.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_cornflakes.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Cornflakes med lort og død ved kølle</h4>
+                                            <p>I denne serie går vi bag kulisserne på de største hits fra slutningen af 90'erne og starten af 00'erne!</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/2-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR2+</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_ditte-louise.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>Ditte og Louise</h4>
+                                            <p>Ditte Hansen og Louise Mieritz spiller en alternativ udgave af sig selv i komedieserien 'Ditte og Louise'.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_taet-sandheden.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tæt på sandheden</h4>
+                                            <p>Comedyshow hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1410,60 +1580,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_poellehullet.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Pøllehullet - det brune værtshus</h4>
+                                            <p>Tag med en tur på Pøllehullet og få en velskænket omgang mørk og absurd satire.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_ugen-plus.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Ugen plus det løse med Huxi Bach</h4>
+                                            <p>Hver søndag runder Huxi Bach skarpe, satiriske hjørner i ugen du netop har kæmpet dig igennem.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_parterapi.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Parterapi</h4>
+                                            <p>I satireserien går 11 helt almindelige par med Jesper Groth i hovedrollen i parterapi for at løse livets største samlivsproblemer.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_humor_torben.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | humor</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Torben Chris rydder op</h4>
+                                            <p>Den danske komiker Torben Chris rydder op i finanskrisen, bryllupper, ældreinvasionen, porno og ligestilling.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1515,60 +1701,76 @@
 
                                 <!--kort 1, række 1-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_alle-ronja.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Hvem vil voldtage Louise</h4>
-                                            <p>En tidlig morgen modtager Louise en anonym mail med ordlyden 'Vi kommer og voldtager dig'. Først blev hun vred. Derefter blev hun forvirret og til sidst blev hun bange. </p>
+                                            <h4>Tværs på DR3: Alle har set Ronja nøgen</h4>
+                                            <p>Ronjas nøgenbilleder blev spredt over hele landet med lynets hast. Hun var kun 11-12 år gammel.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 1-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_bois.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_sine-hjernevasket.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
                                                 <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> serie | dokumentar</h6>
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Fra Bois til Mænd</h4>
-                                            <p>Citybois blev kendt som de sjove drenge fra X Factor. Tre år efter er Anthon og Thor blevet 18 år. Pigerne skriger stadig, men voksenlivet med køretimer, regninger, skole, jobs og husleje presser på.</p>
+                                            <h4>Tværs på DR3: Sine er hjernevasket</h4>
+                                            <p>Som 17-årig valgte Sine at konvertere til islam. Sines familie vil ikke længere ses med hende.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 1-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_barometer.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_jenni-fester.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> musik | podcast</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Barometeret</h4>
-                                            <p>I Barometeret Podcast kan du høre den nyeste musik fra den danske undergrund og de følelser der gemmer sig i den. Fortalt af kunstnerne selv og vært Stine Rosenfeldt.</p>
+                                            <h4>Tværs på DR3: Jenni fester sit liv væk</h4>
+                                            <p>Jenni drukner sine følelser i alkohol, stoffer og piger, når hun har det svært. Hendes opvækst var hård.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 1-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/podcast_danskerbingo.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tværs på DR3: Helena er ond ved sin mor</h4>
+                                            <p>Helena vil umyndiggøre sin mor, selv om moderen ikke vil have det. Efter to blodpropper i hjernen.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1583,60 +1785,76 @@
 
                                 <!--kort 1, række 2-->
                                 <div class="card">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_clara-kujon.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tværs på DR3: Clara er en kujon</h4>
+                                            <p>Efter at en fremmed kvinde døde i hendes arme, kæmper Clara nu med svær PTSD og slippe sin sorg.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 2, række 2-->
                                 <div class="card d-none d-sm-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/musik/dok_tessas-haevn.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_rune-alkohol.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tværs på DR3: Rune er intet uden alkohol</h4>
+                                            <p>19-årige Rune drikker for meget. Han har svært ved at holde sig selv ud, når han er ædru.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 3, række 2-->
                                 <div class="card d-none d-md-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_helene-ond.jpg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_lars.jpeg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tværs på DR3: Lars er svag</h4>
+                                            <p>Lars er ikke længere gruppens sjove og vilde dreng, der aldrig siger nej til drukture og gameraftener.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <!--kort 4, række 2-->
                                 <div class="card d-none d-xl-block">
-                                    <a href="artikel.html">
-                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg" href="artikel.html" alt="Card image cap">
+                                    <a href="serie.html">
+                                        <img class="card-img-top" src="billeder/card-billeder/serier/serier_tvaers_mia-hader.jpg" href="serie.html" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="row">
-                                                <img src="billeder/ui/artikel-01.png" class="card-icon ml-3">
-                                                <h6 class="ml-2"> artikel | jul</h6>
+                                                <img src="billeder/ui/serier-01.png" class="card-icon ml-3">
+                                                <h6 class="ml-2"> serie | tværs</h6>
                                             </div>
-                                            <h4>Julemanden er kommet til Fredericia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, praesentium esse at quae magnam, repellat rem repudiandae soluta sint quisquam unde iste natus eaque, ab odit aliquam voluptates nesciunt facilis.</p>
+                                            <h4>Tværs på DR3: Mia hader julen</h4>
+                                            <p>Mia lyver for sin studiegruppe. Hun har ikke fortalt dem, at begge hendes forældre er døde.</p>
+                                            <div class="row kanalinfo">
+                                                <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3">
+                                                <p class="ml-2"> DR3</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1685,79 +1903,103 @@
 
                 <div class="row" id="gallery">
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_clara-kujon.jpg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_clara-kujon.jpg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_farlig-arv.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_farlig-arv.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_taet-sandheden.jpg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_taet-sandheden.jpg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_jenni-fester.jpg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_jenni-fester.jpg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_sektleder.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_sektleder.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_landet-forkert-familie.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_landet-forkert-familie.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_noget-emma.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_noget-emma.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_poellehullet.jpg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_poellehullet.jpg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_denfalskecaster.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_skam.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_skam.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar%20_vi-koenshaar.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar%20_vi-koenshaar.jpeg"></a>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2 my-2">
-                        <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_doggystyle.jpeg">
+                        <a href="serie.html">
+                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_doggystyle.jpeg"></a>
                     </div>
                 </div>
                 <div id="demo" class="collapse">
                     <div class="row" id="gallery">
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_cornflakes.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_cornflakes.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_mor-dansker.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_mor-dansker.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_nul-stjerner.jpg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_nul-stjerner.jpg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_for-genert.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_for-genert.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_mia-hader.jpg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_tvaers_mia-hader.jpg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_dokumentar_hvem-voldtage-louise.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_fiktion_natten-loerdag.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_gift.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_gift.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_farlig-arv.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_2+_farlig-arv.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_film_charmoeren.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_film_charmoeren.jpeg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_ditte-louise.jpg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_humor_ditte-louise.jpg"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 my-2">
-                            <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_cougarjagt.jpeg">
+                            <a href="serie.html">
+                                <img class="w-100 program" src="billeder/card-billeder/serier/serier_livsstil_cougarjagt.jpeg"></a>
                         </div>
                     </div>
                 </div>
@@ -1784,6 +2026,4 @@
 
     <script src="script.js"></script>
 
-</body>
-
-</html>
+</body></html>

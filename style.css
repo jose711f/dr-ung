@@ -195,6 +195,10 @@ a:hover {
     background-color: var(--tyrkis);
 }
 
+.bg-blue {
+    background-color: var(--blue);
+}
+
 /*------------------ CARD STYLE ------------------*/
 
 .card {
@@ -264,6 +268,22 @@ a:hover {
 
 .carousel-control-next.lyseroed {
     background-color: #FF32E6;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
+.carousel-control-prev.lyseblaa {
+    background-color: #02AFFE;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    opacity: 100%;
+}
+
+.carousel-control-next.lyseblaa {
+    background-color: #02AFFE;
     height: 40px;
     width: 40px;
     margin: auto;
@@ -499,10 +519,20 @@ mark {
     color: white;
 }
 
-.knap a:hover {
-    color: var(--text-lightgrey);
+a.knap {
+    font-family: "dr-reg";
 }
 
+a:hover.knap {
+    color: var(--text-lightgrey);
+    font-family: "dr-semi";
+    text-decoration: none;
+}
+
+
+#banner.container {
+    padding: 0;
+}
 
 /*------------------ sections ------------------*/
 
@@ -515,6 +545,29 @@ mark {
     padding: 10px 15px 0;
 }
 
+
+/*------------------ button ------------------*/
+
+button.btn {
+    color: var(--text-lightgrey);
+    font-family: "dr-semi";
+    border-radius: 0;
+    background-color: var(--background-darkgrey);
+    border: none;
+    padding: 8px 20px;
+}
+
+button.btn:hover {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
+
+.btn-info:focus {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
 
 /**************************************************/
 /****************** MEDIA QUERIES *****************/
