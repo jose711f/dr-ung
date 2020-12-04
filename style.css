@@ -413,8 +413,49 @@ a:hover {
 
 /*-------------footer----------*/
 
+#footer div.row {
+    padding: 15px 0;
+}
+
+#footer h4 {
+    font-size: 1.3rem;
+}
+
+#footer h6 {
+    font-size: 1rem;
+    font-family: "dr-semi";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer p.fed {
+    font-size: 1rem;
+    font-family: "dr-semi";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer p {
+    font-size: 1rem;
+    font-family: "dr-reg";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer a:hover {
+    font-family: "dr-semi";
+    text-decoration: none;
+}
+
+/*
+#footer div.midt {
+    text-align: center;
+}
+*/
+
 .some-footer {
-    width: 20px;
+    width: 30px;
+    padding-bottom: 10px;
 }
 
 .brev-gif {
