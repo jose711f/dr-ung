@@ -25,24 +25,34 @@ async function hentNav() {
 }
 
 function klikNav() {
-    //sætter .nav-aktiv på det aktuelle link og fjerner det fra den gamle - fundet på https://codepen.io/pkstyle/pen/MWYZXXe
     console.log("hej");
 
-    // $('.navbar-nav a').on('click', function () {
-    // console.log("josefine klik")
-    //  $('#topheader .navbar-nav').find('li.nav-aktiv').removeClass('nav-aktiv');
-    //  $(this).parent('li').addClass('nav-aktiv');
+    // document.querySelector(".nav-link").addEventListener("click", markerNav);
 
-    //  });
-
-    document.querySelector(".nav-link").addEventListener("click", markerNav);
+    // sæt en eventlistner på alle
+    document.querySelectorAll(".nav-item").forEach((link) => {
+        //Send "e" med til din funktion (elementet du har klikket på"
+        link.addEventListener("click", function (e) {
+            markerNav(e);
+            console.log("send e med");
+        });
+    });
 
 }
 
 function markerNav() {
     console.log(hej2);
-    document.querySelector(".nav-link").classList.remove("nav-aktiv");
-    document.querySelector(this).classList.add("nav-aktiv");
+    // document.querySelector(".nav-link").classList.remove("nav-aktiv");
+    //  document.querySelector(this).classList.add("nav-aktiv");
+
+    //Fjern klassen på alle
+    document.querySelectorAll("li").forEach((link) => {
+        link.classList.remove("nav-aktiv");
+    });
+
+    //Sæt klassen på den du har klikket på
+    e.target.classList.add("nav-aktiv");
+
 }
 
 function visResultat() {
