@@ -231,6 +231,10 @@ a.nav-aktiv {
     height: 15px;
 }
 
+.kanalinfo {
+    position: absolute;
+    bottom: 0;
+}
 
 /*----------------- Carousel style ---------------*/
 
@@ -371,13 +375,20 @@ a.nav-aktiv {
     bottom: 0px;
 }
 
-/*OBS: skal være responsiv, ligenu virker den kun i lille*/
 .small-box {
     background-color: var(--background-white);
     padding: 10px;
     margin: 10px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
+}
+
+.small-box2 {
+    background-color: var(--background-white);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0%;
 }
 
 /*-------------footer----------*/
@@ -532,6 +543,14 @@ mark {
         width: 550px;
     }
 
+    .small-box {
+        bottom: 3.2%
+    }
+
+    .small-box2 {
+        bottom: 53%;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -574,5 +593,13 @@ mark {
 
     #kanalblok .carousel-row {
         width: 900px;
+    }
+
+    .small-box {
+        bottom: 1.4%
+    }
+
+    .small-box2 {
+        bottom: 51.3%
     }
 }
