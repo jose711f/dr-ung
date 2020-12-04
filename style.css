@@ -546,6 +546,29 @@ a:hover.knap {
 }
 
 
+/*------------------ button ------------------*/
+
+button.btn {
+    color: var(--text-lightgrey);
+    font-family: "dr-semi";
+    border-radius: 0;
+    background-color: var(--background-darkgrey);
+    border: none;
+    padding: 8px 20px;
+}
+
+button.btn:hover {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
+
+.btn-info:focus {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
+
 /**************************************************/
 /****************** MEDIA QUERIES *****************/
 /**************************************************/
