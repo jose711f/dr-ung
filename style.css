@@ -414,22 +414,6 @@ mark {
 
 /*--quiz--*/
 
-#populaert .container {
-    padding: 15px;
-}
-
-#populaert .container .overskrift {
-    padding: 10px 15px 0;
-}
-
-#anbefalinger .container {
-    padding: 15px;
-}
-
-#anbefalinger .container .overskrift {
-    padding: 10px 15px 0;
-}
-
 /**************************************************/
 /******************** SERIER *********************/
 /**************************************************/
@@ -458,25 +442,15 @@ mark {
 
 /*------------------ sections ------------------*/
 
-#mest-sete .container {
+.pad-container {
     padding: 15px;
 }
 
-#mest-sete .container .overskrift {
+
+.pad-overskrift {
     padding: 10px 15px 0;
 }
 
-#dr3nyt .container {
-    padding: 15px;
-}
-
-#film .container {
-    padding: 15px;
-}
-
-#film .container .overskrift {
-    padding: 10px 15px 0;
-}
 
 /**************************************************/
 /****************** MEDIA QUERIES *****************/
