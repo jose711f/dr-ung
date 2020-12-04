@@ -5,8 +5,9 @@ function start() {
     hentNav();
     hentFooter();
 
-    klikKlar();
+    storKarusel();
 
+    klikKlar();
 }
 
 async function hentNav() {
@@ -22,14 +23,30 @@ async function hentNav() {
 
 }
 
-function klikKlar() {
-    document.querySelector("#knap").addEventListener("click", visResultat);
-}
-
 function visResultat() {
     document.querySelector("#quiz-resultat").classList.remove("d-none");
     document.querySelector("#quiz-indhold").classList.add("d-none");
 
+}
+
+function storKarusel() {
+    $('.carousel-item', '.storkarusel').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+    }).each(function () {
+        var prev = $(this).prev();
+        if (!prev.length) {
+            prev = $(this).siblings(':last');
+        }
+        prev.children(':nth-last-child(2)').clone().prependTo($(this));
+    });
+}
+
+function klikKlar() {
+    document.querySelector("#knap").addEventListener("click", visResultat);
 }
 
 async function hentFooter() {

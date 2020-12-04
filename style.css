@@ -284,14 +284,6 @@ a.nav-aktiv {
     padding-bottom: 25px;
 }
 
-.storkarusel.carousel-control-prev {
-    background-color: transparent;
-}
-
-.storkarusel.carousel-control-next {
-    background-color: transparent;
-}
-
 .stor-karusel-titel {
     width: 80%;
     margin: 10px;
@@ -305,31 +297,35 @@ a.nav-aktiv {
 
 /*----stor karusel viser naboer---*/
 
-$fragment_width: 25%;
 
 .vis-nabo {
     overflow: hidden;
 }
 
-.carousel-inner {
-    width: (100%-2*$fragment_width)*3;
-    left: 3*$fragment_width-100%;
+.storkarusel .carousel-inner {
+    width: 150%;
+    left: -25%;
 }
 
-.carousel-item-next:not(.carousel-item-left),
-.carousel-item-right.active {
+.storkarusel .carousel-control-prev,
+.storkarusel .carousel-control-next {
+    background: transparent;
+    width: 25%;
+}
+
+.storkarusel .carousel-item-next:not(.carousel-item-left),
+.storkarusel .carousel-item-right.active {
     -webkit-transform: translate3d(33%, 0, 0);
     transform: translate3d(33%, 0, 0);
 }
 
-.carousel-item-prev:not(.carousel-item-right),
-.carousel-item-left.active {
+.storkarusel .carousel-item-prev:not(.carousel-item-right),
+.storkarusel .carousel-item-left.active {
     -webkit-transform: translate3d(-33%, 0, 0);
     transform: translate3d(-33%, 0, 0);
 }
 
 .item_third {
-    display: block !important;
     float: left;
     position: relative;
     /* captions can now be added */
