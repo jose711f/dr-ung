@@ -260,14 +260,6 @@ a.nav-aktiv {
     opacity: 100%;
 }
 
-.storkarusel.carousel-control-prev {
-    height: 10%
-}
-
-.storkarusel.carousel-control-next {
-    height: 10%
-}
-
 .carousel-row {
     margin: auto;
     width: 95%;
@@ -285,6 +277,60 @@ a.nav-aktiv {
 .carousel {
     padding-bottom: 25px;
 }
+
+.storkarusel.carousel-control-prev {
+    background-color: transparent;
+}
+
+.storkarusel.carousel-control-next {
+    background-color: transparent;
+}
+
+.stor-karusel-titel {
+    width: 80%;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.stor-karusel-titel h3 {
+    font-size: 1.4rem;
+}
+
+/*----stor karusel viser naboer---*/
+
+$fragment_width: 25%;
+
+.vis-nabo {
+    overflow: hidden;
+}
+
+.carousel-inner {
+    width: (100%-2*$fragment_width)*3;
+    left: 3*$fragment_width-100%;
+}
+
+.carousel-item-next:not(.carousel-item-left),
+.carousel-item-right.active {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+}
+
+.carousel-item-prev:not(.carousel-item-right),
+.carousel-item-left.active {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+}
+
+.item_third {
+    display: block !important;
+    float: left;
+    position: relative;
+    /* captions can now be added */
+    width: 33.33333333%;
+}
+
+/*--slut nabo--*/
 
 /*--------------Dividers next to h2's ------------*/
 
@@ -479,7 +525,6 @@ mark {
         width: 550px;
     }
 
-
 }
 
 @media (min-width: 992px) {
@@ -508,6 +553,7 @@ mark {
     .kategori:last-child {
         margin-right: 0;
     }
+
 }
 
 @media (min-width: 1200px) {
