@@ -298,37 +298,38 @@ a.nav-aktiv {
 /*----stor karusel viser naboer---*/
 
 
-.vis-nabo {
+.multi-item-carousel {
     overflow: hidden;
 }
 
-.storkarusel .carousel-inner {
+.multi-item-carousel .carousel-control-prev,
+.multi-item-carousel .carousel-control-next {
+    background: rgba(255, 255, 255, 0.3);
+    width: 25%;
+    z-index: 11;
+    /* .carousel-caption has z-index 10 */
+}
+
+.multi-item-carousel .carousel-inner {
     width: 150%;
     left: -25%;
 }
 
-.storkarusel .carousel-control-prev,
-.storkarusel .carousel-control-next {
-    background: transparent;
-    width: 25%;
-}
-
-.storkarusel .carousel-item-next:not(.carousel-item-left),
-.storkarusel .carousel-item-right.active {
+.multi-item-carousel .carousel-item-next:not(.carousel-item-left),
+.multi-item-carousel .carousel-item-right.active {
     -webkit-transform: translate3d(33%, 0, 0);
     transform: translate3d(33%, 0, 0);
 }
 
-.storkarusel .carousel-item-prev:not(.carousel-item-right),
-.storkarusel .carousel-item-left.active {
+.multi-item-carousel .carousel-item-prev:not(.carousel-item-right),
+.multi-item-carousel .carousel-item-left.active {
     -webkit-transform: translate3d(-33%, 0, 0);
     transform: translate3d(-33%, 0, 0);
 }
 
-.item_third {
+.multi-item-carousel .item__third {
     float: left;
     position: relative;
-    /* captions can now be added */
     width: 33.33333333%;
 }
 

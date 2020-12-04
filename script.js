@@ -30,7 +30,7 @@ function visResultat() {
 }
 
 function storKarusel() {
-    $('.carousel-item', '.storkarusel').each(function () {
+    $('.carousel-item', '.multi-item-carousel').each(function () {
         var next = $(this).next();
         if (!next.length) {
             next = $(this).siblings(':first');
