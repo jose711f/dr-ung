@@ -21,6 +21,28 @@ async function hentNav() {
     //indsætter nav.html ind i <nav></nav> på alle sider.
     document.querySelector("nav").innerHTML = inclusionNav;
 
+    klikNav();
+}
+
+function klikNav() {
+    //sætter .nav-aktiv på det aktuelle link og fjerner det fra den gamle - fundet på https://codepen.io/pkstyle/pen/MWYZXXe
+    console.log("hej");
+
+    // $('.navbar-nav a').on('click', function () {
+    // console.log("josefine klik")
+    //  $('#topheader .navbar-nav').find('li.nav-aktiv').removeClass('nav-aktiv');
+    //  $(this).parent('li').addClass('nav-aktiv');
+
+    //  });
+
+    document.querySelector(".nav-link").addEventListener("click", markerNav);
+
+}
+
+function markerNav() {
+    console.log(hej2);
+    document.querySelector(".nav-link").classList.remove("nav-aktiv");
+    document.querySelector(this).classList.add("nav-aktiv");
 }
 
 function visResultat() {
@@ -29,6 +51,7 @@ function visResultat() {
 
 }
 
+//Kode til karusellen med 1 stor og halve er hentet fra https://stackoverflow.com/questions/20346847/bootstrap-carousel-showing-next-and-previous-image //
 function storKarusel() {
     $('.carousel-item', '.multi-item-carousel').each(function () {
         var next = $(this).next();

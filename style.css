@@ -166,8 +166,8 @@ a:hover {
     padding: 5px 0;
 }
 
-a.nav-aktiv {
-    font-family: "dr-semi";
+.nav-aktiv {
+    font-family: "dr-black";
     text-decoration: underline;
     text-decoration-color: var(--pink);
 }
@@ -231,6 +231,10 @@ a.nav-aktiv {
     height: 15px;
 }
 
+.kanalinfo {
+    position: absolute;
+    bottom: 0;
+}
 
 /*----------------- Carousel style ---------------*/
 
@@ -304,7 +308,7 @@ a.nav-aktiv {
 
 .multi-item-carousel .carousel-control-prev,
 .multi-item-carousel .carousel-control-next {
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     width: 25%;
     z-index: 11;
     /* .carousel-caption has z-index 10 */
@@ -317,7 +321,7 @@ a.nav-aktiv {
 
 .multi-item-carousel .carousel-item-next:not(.carousel-item-left),
 .multi-item-carousel .carousel-item-right.active {
-    -webkit-transform: translate3d(33%, 0, 0);
+    -webkit-transform: transparent;
     transform: translate3d(33%, 0, 0);
 }
 
@@ -331,6 +335,10 @@ a.nav-aktiv {
     float: left;
     position: relative;
     width: 33.33333333%;
+}
+
+.carousel-caption h3 {
+    font-size: 1.2rem;
 }
 
 /*--slut nabo--*/
@@ -367,13 +375,20 @@ a.nav-aktiv {
     bottom: 0px;
 }
 
-/*OBS: skal være responsiv, ligenu virker den kun i lille*/
 .small-box {
     background-color: var(--background-white);
     padding: 10px;
     margin: 10px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
+}
+
+.small-box2 {
+    background-color: var(--background-white);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0%;
 }
 
 /*-------------footer----------*/
@@ -528,6 +543,14 @@ mark {
         width: 550px;
     }
 
+    .small-box {
+        bottom: 3.2%
+    }
+
+    .small-box2 {
+        bottom: 53%;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -557,6 +580,10 @@ mark {
         margin-right: 0;
     }
 
+    .carousel-caption h3 {
+        font-size: 1.6rem;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -566,5 +593,13 @@ mark {
 
     #kanalblok .carousel-row {
         width: 900px;
+    }
+
+    .small-box {
+        bottom: 1.4%
+    }
+
+    .small-box2 {
+        bottom: 51.3%
     }
 }
