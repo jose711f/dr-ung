@@ -41,7 +41,7 @@ function klikNav() {
 }
 
 function markerNav() {
-    console.log(hej2);
+    console.log("hej2");
     // document.querySelector(".nav-link").classList.remove("nav-aktiv");
     //  document.querySelector(this).classList.add("nav-aktiv");
 
