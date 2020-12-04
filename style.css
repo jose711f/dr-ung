@@ -226,6 +226,12 @@ a.nav-aktiv {
     width: 80%;
 }
 
+.card-icon-2 {
+    width: 15px;
+    height: 15px;
+}
+
+
 /*----------------- Carousel style ---------------*/
 
 .carousel-control-prev {
