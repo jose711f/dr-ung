@@ -166,8 +166,8 @@ a:hover {
     padding: 5px 0;
 }
 
-a.nav-aktiv {
-    font-family: "dr-semi";
+.nav-aktiv {
+    font-family: "dr-black";
     text-decoration: underline;
     text-decoration-color: var(--pink);
 }
