@@ -624,6 +624,10 @@ img.card-icon.serie-ikon {
     color: black;
 }
 
+#tekst h4 {
+    color: black;
+    font-family: "dr-semi";
+}
 
 #episoder h4 {
     color: black;
@@ -640,11 +644,34 @@ img.card-icon.serie-ikon {
     font-size: 0.8rem;
 }
 
+
+.podcast-billede {
+    position: relative;
+}
+
+#serie #player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height: 40px;
+    width: 40px;
+    background: #999999;
+    background-image: url('http://basichow.com/asserts/images/play.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
 /**************************************************/
 /******************** MUSIK *********************/
 /**************************************************/
 
-#player-container #play-pause {
+#musik #player-container #play-pause {
     cursor: pointer;
     text-indent: -999999px;
     height: 15px;
