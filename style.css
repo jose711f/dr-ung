@@ -611,6 +611,31 @@ button.btn:hover {
 }
 
 /**************************************************/
+/******************** MUSIK *********************/
+/**************************************************/
+
+#player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height: 15px;
+    width: 15px;
+    background: #999999;
+    background-image: url('http://basichow.com/asserts/images/play.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5px;
+    margin-left: 15px;
+}
+
+.play {
+    background-image: url('http://basichow.com/asserts/images/play.png');
+}
+
+.pause {
+    background-image: url('http://basichow.com/asserts/images/pause.png') !important;
+}
+
+/**************************************************/
 /****************** MEDIA QUERIES *****************/
 /**************************************************/
 
