@@ -610,6 +610,36 @@ button.btn:hover {
     border: none;
 }
 
+
+/*------------------ENKELT SERIE SIDE------------------*/
+
+img.card-icon.serie-ikon {
+    height: 12px;
+    width: 12px;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+#tekst p {
+    color: black;
+}
+
+
+#episoder h4 {
+    color: black;
+    text-transform: uppercase;
+}
+
+#episoder h5 {
+    color: black;
+    padding-top: 10px;
+}
+
+#episoder p {
+    color: black;
+    font-size: 0.8rem;
+}
+
 /**************************************************/
 /******************** MUSIK *********************/
 /**************************************************/
