@@ -151,8 +151,9 @@ p {
     text-transform: uppercase;
 }
 
-a:hover {
+.navbar a:hover {
     color: var(--link-hover-color);
+    text-decoration: underline;
 }
 
 /**************************************************/
