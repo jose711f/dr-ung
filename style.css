@@ -18,6 +18,9 @@
 4.7 knapper
 5.0 FORSIDE
 5.1 quiz
+x.0 SERIER
+x.0 MUSIK
+x.0 ARTIKEL SINGLEVIEW
 x.x. Media queries
 
 */
@@ -691,6 +694,50 @@ img.card-icon.serie-ikon {
 
 .pause {
     background-image: url('http://basichow.com/asserts/images/pause.png') !important;
+}
+
+
+/**************************************************/
+/*************** ARTIKEL SINGLEVIEW ***************/
+/**************************************************/
+
+.rubrik {
+    font-family: dr-semi;
+}
+
+#main-artikel h1 {
+    text-transform: capitalize;
+}
+
+#main-artikel h3 {
+    font-family: dr-reg;
+}
+
+#main-artikel p {
+    color: var(--black);
+}
+
+#main-artikel .billedetekst {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+#main-artikel .forfatter-dato {
+    font-size: 0.7rem;
+}
+
+.some-del img {
+    width: 20px;
+}
+
+.artikel-faktaboks {
+    background-color: var(--background-lightgrey);
+    border-left: solid var(--pink) 5px;
+    max-width: 600px;
+}
+
+#artikel-indhold {
+    max-width: 800px;
 }
 
 /**************************************************/
