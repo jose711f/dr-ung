@@ -475,13 +475,21 @@ p {
 /**************************************************/
 
 /*-----quiz---*/
-#quiz {
+#main-forside #underholdning {
     background-image: url(billeder/ui/5.element-01.png);
     background-size: contain;
 }
 
+#quiz p {
+    font-family: dr-semi;
+}
+
 #quiz h3 {
     color: var(--text-darkgrey);
+}
+
+#quiz label {
+    font-family: dr-semi;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {

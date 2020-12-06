@@ -63,11 +63,11 @@
                     <!--artikel 1-->
                     <div>
                         <a href="podcast.html">
-                            <img src="billeder/card-billeder/musik/podcast_curling-klubben.jpg" class="img-fluid" alt="Curlingklubben">
+                            <img src="billeder/store-billeder/signe-molde.jpeg" class="img-fluid" alt="Curlingklubben">
                         </a>
                         <a href="artikel.html">
                             <div class="small-box">
-                                <h4 class="dark-text pr-4">Nyt satireprogram får kritik:<br> 'Det udstiller transkønnede'</h4>
+                                <h4 class="dark-text pr-4">Satireprogram får kritik</h4>
                                 <div class="row">
                                     <img src="billeder/ui/radio-01.png" class="card-icon ml-3" alt="artikel ikon">
                                     <h6 class="ml-2"> Artikel | kultur</h6>
@@ -78,7 +78,7 @@
                     <!--artikel 2-->
                     <div>
                         <a href="artikel.html">
-                            <img src="billeder/store-billeder/signe-molde.jpeg" class="img-fluid" alt="Nyt satireprogram får kritik:<br> 'Det udstiller transkønnede'">
+                            <img src="billeder/store-billeder/curlingklubben.jpeg" class="img-fluid" alt="Nyt satireprogram får kritik:<br> 'Det udstiller transkønnede'">
                         </a>
                         <a href="podcast.html">
                             <div class="small-box2">
@@ -305,67 +305,69 @@
 
         <!-------------- Underholdning -------------->
 
-        <section id="underholdning" class="container">
-            <div class="row py-4">
-                <div class="d-none d-md-block col-md-4">
-                    <video width="100%" autoplay muted loop>
-                        <source src="video/DR3-Story.mp4">
-                    </video>
-                </div>
+        <section id="underholdning" class="container-fluid">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="d-none d-md-block col-md-4">
+                        <video width="100%" autoplay muted loop>
+                            <source src="video/DR3-Story.mp4">
+                        </video>
+                    </div>
 
 
-                <!--QUiZ begynder her-->
-                <div id="quiz" class="containter-fluid col-md-8 p-3">
-                    <div class="col-10 m-auto p-sm-1 ">
-                        <h1 class="display-1 text-center mb-5"><mark>Er du altid helt ærlig</mark> <br><mark> overfor dine venner?</mark></h1>
+                    <!--QUiZ begynder her-->
+                    <div id="quiz" class="containter col-md-8 p-3 d-flex align-middle">
+                        <div class="col-10 m-auto p-sm-1e">
+                            <h1 class="display-1 text-center mb-5"><mark>Er du altid helt ærlig</mark> <br><mark> overfor dine venner?</mark></h1>
 
-                        <div id="quiz-indhold">
+                            <div id="quiz-indhold">
 
-                            <!--mulighed 1-->
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                <label class="custom-control-label" for="customCheck1">Ja for fanden! De ved hvad jeg synes om dem, på gode godt og skidt.</label>
+                                <!--mulighed 1-->
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Ja for fanden! De ved hvad jeg synes om dem, på gode godt og skidt.</label>
+                                </div>
+                                <!--mulighed 2-->
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2"> Den er måske glippet en gang eller to... ups!</label>
+                                </div>
+                                <!--mulighed 3-->
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Næh! Jeg bøjer sandheden som det passer mig også over for mine venner.</label>
+                                </div>
+
+                                <!--quiz knap-->
+                                <div class="row knap-row pulse mt-5">
+                                    <button id="knap" class="quiz-knap" onclick="visResultat()">Send</button>
+                                </div>
+
                             </div>
-                            <!--mulighed 2-->
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                <label class="custom-control-label" for="customCheck2"> Den er måske glippet en gang eller to... ups!</label>
-                            </div>
-                            <!--mulighed 3-->
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="customCheck3">
-                                <label class="custom-control-label" for="customCheck3">Næh! Jeg bøjer sandheden som det passer mig også over for mine venner.</label>
-                            </div>
 
-                            <!--quiz knap-->
-                            <div class="row knap-row pulse mt-5">
-                                <button id="knap" class="quiz-knap" onclick="visResultat()">Send</button>
-                            </div>
 
+                            <!---quiz resultater-->
+
+                            <div id="quiz-resultat" class="resultater-quiz d-none">
+                                <h3>Resultater</h3>
+                                <p>Ja for fanden! De ved hvad jeg synes om dem, på gode godt og skidt.</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="pogressbar" style="width: 40%"></div>
+                                </div>
+                                <p>Den er måske glippet en gang eller to... ups!</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="pogressbar" style="width: 55%"></div>
+                                </div>
+                                <p>Næh! Jeg bøjer sandheden som det passer mig også over for mine venner.</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="pogressbar" style="width: 5%"></div>
+                                </div>
+                            </div>
                         </div>
 
-
-                        <!---quiz resultater-->
-
-                        <div id="quiz-resultat" class="resultater-quiz d-none">
-                            <h3>Resultater</h3>
-                            <p>Ja for fanden! De ved hvad jeg synes om dem, på gode godt og skidt.</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="pogressbar" style="width: 40%"></div>
-                            </div>
-                            <p>Den er måske glippet en gang eller to... ups!</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="pogressbar" style="width: 55%"></div>
-                            </div>
-                            <p>Næh! Jeg bøjer sandheden som det passer mig også over for mine venner.</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="pogressbar" style="width: 5%"></div>
-                            </div>
-                        </div>
                     </div>
 
                 </div>
-
             </div>
         </section>
 
@@ -591,4 +593,6 @@
 
     <script src="script.js"></script>
 
-</body></html>
+</body>
+
+</html>
