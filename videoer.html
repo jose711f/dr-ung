@@ -46,24 +46,223 @@
 
         <section id="kategorier" class="container">
             <div class="row">
-                <a href="#underholdning" class="knap">UNDERHOLDNING</a>
-                <a href="#satire" class="knap">SATIRE</a>
-                <a href="#viden" class="knap">VIDEN</a>
-                <a href="#musik" class="knap">MUSIK</a>
+                <div class="col-6 col-md-3 kategori">
+                    <a href="#underholdning" class="knap">UNDERHOLDNING</a>
+                </div>
+                <div class="col-6 col-md-3 kategori">
+                    <a href="#satire" class="knap">SATIRE</a>
+                </div>
+                <div class="col-6 col-md-3 kategori stop">
+                    <a href="#viden" class="knap">VIDEN</a>
+                </div>
+                <div class="col-6 col-md-3 kategori start">
+                    <a href="#musik" class="knap">MUSIK</a>
+                </div>
             </div>
+
         </section>
 
         <!---------------- nyeste ---------------->
 
-        <section id="nye" class="container">
+        <section id="nye" class="container pad-container">
 
-            <div class="row">
+            <div class="row pad-overskrift">
                 <!--overskrift med linje-->
-                <h2 class="">Fra P3 studiet</h2>
+                <h2 class="">Nyeste videoer</h2>
                 <hr class="hr-pink">
             </div>
 
             <!--ALM KARUSEL - navn: video1-->
+            <div id="video1" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <!--række 1 i karusel-->
+                        <div class="row carousel-row">
+
+                            <!--kort 1, række 1-->
+                            <div class="card">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_jacob-ild.png" href="serie.html" alt="Mandemand ind i Jacob">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | Mandemand</h6>
+                                        </div>
+                                        <h4>Stuntmand sætter ild til mig!</h4>
+                                        <p>Actionfilm er sejt. Helt vildt sejt faktisk. Virkelighedens actionhelte er stuntmændene.
+                                        </p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2">DR3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 2, række 1-->
+                            <div class="card d-none d-sm-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_satire_dannebros.png" href="video.html" alt="Dannebros - gør det selv">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | satire</h6>
+                                        </div>
+                                        <h4>DanneBros - Gør det selv</h4>
+                                        <p>Nu der ikke nogen jeg ka hygge mig med,
+                                            min bedste ven er et byggemarked.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/p3-kanal-logo.jpeg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> P3 x satire</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 3, række 1-->
+                            <div class="card d-none d-md-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_underholdning_mundbind.png" href="video.html" alt="line kirsten samler mundbind">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | underholdning</h6>
+                                        </div>
+                                        <h4>Samler brugte mundbind på tid</h4>
+                                        <p>Mundbind er alle vegne for tiden. I toget, i bussen og desværre også overalt i naturen.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> DR3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 4, række 1-->
+                            <div class="card d-none d-xl-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_kortdok_jenni.png" href="video.html" alt="Jenni fester sit liv væk">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | Kortdok</h6>
+                                        </div>
+                                        <h4>Jenni fester sit liv væk</h4>
+                                        <p>Jenni blev svigtet, da hun voksede op. Nu kæmper hun for at blive den person, hun gerne vil være og hjælpe andre udsatte unge.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/p3-kanal-logo.jpeg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> P3 x satire</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <!--række 2 i karusel-->
+                        <div class="row carousel-row">
+
+                            <!--kort 1, række 2-->
+                            <div class="card">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_underholdning_andrea.png" href="video.html" alt="Andrea Heick Gadeberg">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | upcomming</h6>
+                                        </div>
+                                        <h4>Andrea har optaget over 200 videoer med sig selv</h4>
+                                        <p>Andrea Heick Gadeberg spiller med i 'Retfærdighedens Ryttere.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/3-kanal-logo.jpg" class="card-icon-2 ml-3" alt="ikon">
+                                            <p class="ml-2"> DR3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 2, række 2-->
+                            <div class="card d-none d-sm-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_musik_tessa.png" href="video.html" alt="Tessa">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | musik</h6>
+                                        </div>
+                                        <h4>Tessa 'Så'n der</h4>
+                                        <p>Tessas optræden fra P3 Guld 2020</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/p3-kanal-logo.jpeg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> P3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 3, række 2-->
+                            <div class="card d-none d-md-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_satire_dannebros.png" href="video.html" alt="Dannebros - gør det selv">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | satire</h6>
+                                        </div>
+                                        <h4>DanneBros - Gør det selv</h4>
+                                        <p>Nu der ikke nogen jeg ka hygge mig med,
+                                            min bedste ven er et byggemarked.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/p3-kanal-logo.jpeg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> P3 x satire</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--kort 4, række 2-->
+                            <div class="card d-none d-xl-block">
+                                <a href="video.html">
+                                    <img class="card-img-top" src="billeder/card-billeder/videoer/video_satire_dannebros.png" href="serie.html" alt="Dannebros - gør det selv">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <img src="billeder/ui/video-01.png" class="card-icon ml-3" alt="video ikon">
+                                            <h6 class="ml-2"> video | satire</h6>
+                                        </div>
+                                        <h4>DanneBros - Gør det selv</h4>
+                                        <p>Nu der ikke nogen jeg ka hygge mig med,
+                                            min bedste ven er et byggemarked.</p>
+                                        <div class="row kanalinfo">
+                                            <img src="billeder/ui/p3-kanal-logo.jpeg" class="card-icon-2 ml-3" alt="p3 ikon">
+                                            <p class="ml-2"> P3 x satire</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--pile-->
+                <a class="carousel-control-prev" href="#video1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#video1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!--pile slut-->
+
+            </div>
 
         </section>
 
@@ -71,7 +270,7 @@
         <!---------------- mest sete ---------------->
 
         <section id="mest-sete" class="container-fluid bg-lightgrey">
-            <div class="container">
+            <div class="container pad-container">
                 <div class="row">
                     <!--overskrift med linje-->
                     <h2 class="bg-lightgrey">Mest sete</h2>
@@ -142,9 +341,9 @@
 
         <!------------------- p3 studiet ------------------->
 
-        <section id="p3studie" class="container">
+        <section id="p3studie" class="container pad-container">
 
-            <div class="row">
+            <div class="row pad-overskrift">
                 <!--overskrift med linje-->
                 <h2 class="">Fra P3 studiet</h2>
                 <hr class="hr-pink">
@@ -157,7 +356,7 @@
         <!--------------- Mandemand --------------->
 
         <section id="mandemand" class="container-fluid bg-lightgrey">
-            <div class="container">
+            <div class="container pad-container">
                 <div class="row">
                     <!--overskrift med linje-->
                     <h2 class="bg-lightgrey">Mandemand</h2>
@@ -171,9 +370,9 @@
 
         <!----------------- Kort doks ----------------->
 
-        <section id="kort-doks" class="container">
+        <section id="kort-doks" class="container pad-container">
 
-            <div class="row">
+            <div class="row pad-overskrift">
                 <!--overskrift med linje-->
                 <h2 class="">Kort doks</h2>
                 <hr class="hr-pink">
@@ -186,7 +385,7 @@
         <!---------------- reklame ----------------->
 
         <section id="reklame" class="container">
-            <div class="col-12">
+            <div class="col-12 p-0">
                 <video width="100%" autoplay muted loop>
                     <source src="video/mandemand-banner.mp4">
                 </video>
@@ -195,7 +394,7 @@
 
         <!------------------ underholdning ------------------>
 
-        <section id="underholdning" class="container-fluid bg-lightgrey">
+        <section id="underholdning" class="container-fluid bg-lightgrey pad-container">
 
             <div class="container">
                 <div class="row">
@@ -212,9 +411,9 @@
 
         <!----------------- satire ------------------>
 
-        <section id="satire" class="container">
+        <section id="satire" class="container pad-container">
 
-            <div class="row">
+            <div class="row pad-overskrift">
                 <!--overskrift med linje-->
                 <h2 class="">Satire</h2>
                 <hr class="hr-pink">
@@ -226,7 +425,7 @@
 
         <!----------------- viden ------------------>
 
-        <section id="viden" class="container-fluid bg-lightgrey">
+        <section id="viden" class="container-fluid bg-lightgrey pad-container">
 
             <div class="container">
                 <div class="row">
@@ -243,9 +442,9 @@
 
         <!------------------ musik ------------------->
 
-        <section id="musik" class="container">
+        <section id="musik" class="container pad-container">
 
-            <div class="row">
+            <div class="row pad-overskrift">
                 <!--overskrift med linje-->
                 <h2 class="">Musik</h2>
                 <hr class="hr-pink">
@@ -273,6 +472,4 @@
 
     <script src="script.js"></script>
 
-</body>
-
-</html>
+</body></html>

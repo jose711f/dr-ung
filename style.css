@@ -20,6 +20,7 @@
 5.1 quiz
 x.0 SERIER
 x.0 MUSIK
+x.0 VIDEOER
 x.0 ARTIKEL SINGLEVIEW
 x.x. Media queries
 
@@ -405,6 +406,7 @@ p {
     margin: 10px;
     position: absolute;
     bottom: 0%;
+    width: 40%
 }
 
 .small-box2 {
@@ -413,6 +415,7 @@ p {
     margin: 10px;
     position: absolute;
     bottom: 0%;
+    width: 40%;
 }
 
 /*-------------footer----------*/
@@ -696,6 +699,13 @@ img.card-icon.serie-ikon {
     background-image: url('http://basichow.com/asserts/images/pause.png') !important;
 }
 
+/**************************************************/
+/******************** VIDEOER *********************/
+/**************************************************/
+
+#main-videoer .kategori {
+    max-width: 49%;
+}
 
 /**************************************************/
 /*************** ARTIKEL SINGLEVIEW ***************/
@@ -767,12 +777,18 @@ img.card-icon.serie-ikon {
         width: 550px;
     }
 
-    .small-box {
-        bottom: 3.2%
+    .small-box2 {
+        bottom: 3.2%;
+        width: 70%
     }
 
-    .small-box2 {
+    .small-box {
         bottom: 53%;
+        width: 70%
+    }
+
+    #main-videoer .kategori {
+        max-width: 24%;
     }
 
 }
