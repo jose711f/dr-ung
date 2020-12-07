@@ -757,7 +757,7 @@ img.card-icon.serie-ikon {
 /******************** MUSIK *********************/
 /**************************************************/
 
-#musik #player-container #play-pause {
+#main-musik #player-container #play-pause {
     cursor: pointer;
     text-indent: -999999px;
     height: 15px;
