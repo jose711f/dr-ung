@@ -151,13 +151,15 @@ p {
 .navbar a {
     font-family: "dr-reg";
     font-size: 1rem;
-    color: var(--link-color);
+    color: var(--black) !important;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0 auto !important;
 }
 
 .navbar a:hover {
     color: var(--link-hover-color);
-    text-decoration: underline;
+    font-family: "dr-semi";
 }
 
 /**************************************************/
@@ -172,15 +174,20 @@ p {
 }
 
 .nav-aktiv {
-    font-family: "dr-black";
-    text-decoration: underline;
-    text-decoration-color: var(--pink);
+    font-family: "dr-semi" !important;
+    border-bottom: solid 3px var(--pink);
 }
 
 .navbar {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+/*
+.nav-item {
+    width: 80px;
+}
+*/
 
 #top hr {
     margin-top: 0;
