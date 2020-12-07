@@ -565,15 +565,14 @@ h4.cookie-overskrift {
 #quiz h3 {
     font-size: 1.6rem;
     color: var(--text-darkgrey);
-<<<<<<< HEAD
-    font-family: "dr-bold";
-=======
-    font-size: 1.2 rem;
->>>>>>> origin/master
+    <<<<<<< HEAD font-family: "dr-bold";
+    =======font-size: 1.2 rem;
+    > > > > > > > origin/master
 }
 
 #quiz label {
     font-family: dr-semi;
+    font-size: 1rem;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
@@ -626,7 +625,7 @@ button.quiz-knap {
 }
 
 .display-1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-style: italic;
 }
 
@@ -651,7 +650,7 @@ mark {
     background-color: var(--background-darkgrey);
     padding: 12px 0;
     text-align: center;
-    max-width: 32.5%;
+    max-width: 49%;
     margin: 2px auto 2px;
 }
 
@@ -864,7 +863,11 @@ img.card-icon.serie-ikon {
     }
 
     h1.display-1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    .kategori {
+        max-width: 32.5%;
     }
 }
 
