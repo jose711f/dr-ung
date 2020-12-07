@@ -5,11 +5,11 @@ function start() {
     hentNav();
     hentFooter();
 
-    cookiesKlik();
-
     storKarusel();
 
     klikKlar();
+
+    cookiesKlik();
 }
 
 async function hentNav() {
