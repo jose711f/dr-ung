@@ -5,6 +5,8 @@ function start() {
     hentNav();
     hentFooter();
 
+    cookiesKlik();
+
     storKarusel();
 
     klikKlar();
@@ -45,6 +47,14 @@ function markerNav() {
     })
 
 
+}
+
+function cookiesKlik() {
+    document.querySelector(".luk-cookie").addEventListener("click", cookiesSkjul);
+}
+
+function cookiesSkjul() {
+    document.querySelector(".cookie-banner").classList.add("skjul-cookie");
 }
 
 //function klikNav() {
