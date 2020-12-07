@@ -104,13 +104,13 @@ h2 {
 }
 
 h3 {
-    font-family: "dr-bold";
-    font-size: 1.6rem;
+    font-family: "dr-semi";
+    font-size: 1.3rem;
     color: var(--text-black);
 }
 
 h4 {
-    font-family: "dr-bold";
+    font-family: "dr-semi";
     font-size: 1rem;
     color: var(--text-white);
 }
@@ -340,6 +340,7 @@ button:focus {
 }
 
 .stor-karusel-titel h3 {
+    font-family: "dr-bold";
     font-size: 1.4rem;
 }
 
@@ -445,6 +446,7 @@ button:focus {
 }
 
 #footer h4 {
+    font-family: "dr-bold";
     font-size: 1.3rem;
 }
 
@@ -516,6 +518,11 @@ button:focus {
     font-family: dr-semi
 }
 
+h4.cookie-overskrift {
+    font-size: 1rem;
+    font-family: "dr-bold";
+}
+
 .luk-cookie {
     background-color: var(--green);
     border: 1px solid white;
@@ -556,7 +563,9 @@ button:focus {
 }
 
 #quiz h3 {
+    font-size: 1.6rem;
     color: var(--text-darkgrey);
+    font-family: "dr-bold";
 }
 
 #quiz label {
@@ -711,11 +720,14 @@ img.card-icon.serie-ikon {
 }
 
 #tekst h4 {
+    font-size: 1rem;
     color: black;
     font-family: "dr-semi";
 }
 
 #episoder h4 {
+    font-family: "dr-bold";
+    font-size: 1rem;
     color: black;
     text-transform: uppercase;
 }
@@ -799,7 +811,8 @@ img.card-icon.serie-ikon {
 }
 
 #main-artikel h3 {
-    font-family: dr-reg;
+    font-size: 1.6rem;
+    font-family: "dr-reg";
 }
 
 #main-artikel p {
@@ -901,11 +914,16 @@ img.card-icon.serie-ikon {
 
     .carousel-caption h3 {
         font-size: 1.6rem;
+        font-family: "dr-bold";
     }
 
 }
 
 @media (min-width: 1200px) {
+    h3 {
+        font-size: 1.6rem;
+    }
+
     .carousel-item .card {
         width: 23%;
     }
