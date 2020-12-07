@@ -200,6 +200,18 @@ button:focus {
     outline: none;
 }
 
+li.nav-item {
+    margin: 20px;
+}
+
+#nav-forside {
+    margin-top: 40px;
+}
+
+#nav-nyheder {
+    margin-bottom: 500px;
+}
+
 /**************************************************/
 /******************** GENEREL *********************/
 /**************************************************/
@@ -896,6 +908,12 @@ img.card-icon.serie-ikon {
 
     h1.display-1 {
         font-size: 1.5rem;
+    }
+
+    li.nav-item,
+    #nav-forside,
+    #nav-nyheder {
+        margin: 0;
     }
 
 
