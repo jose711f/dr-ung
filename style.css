@@ -88,14 +88,14 @@ x.x. Media queries
 
 h1 {
     font-family: "dr-black";
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: var(--text-black);
     text-transform: uppercase;
 }
 
 h2 {
     font-family: "dr-black";
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--text-black);
     text-transform: uppercase;
     background-color: var(--background-white);
@@ -488,12 +488,6 @@ li.nav-item {
     text-decoration: none;
 }
 
-/*
-#footer div.midt {
-    text-align: center;
-}
-*/
-
 .some-footer {
     width: 30px;
     padding-bottom: 10px;
@@ -880,6 +874,14 @@ img.card-icon.serie-ikon {
 
     .kategori {
         max-width: 32.5%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
     }
 }
 
