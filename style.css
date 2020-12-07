@@ -245,6 +245,11 @@ p {
     bottom: 0;
 }
 
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 /*----------------- Carousel style ---------------*/
 
 .carousel-control-prev {
@@ -363,7 +368,8 @@ p {
 }
 
 .carousel-caption h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: "dr-semi";
 }
 
 /*--slut nabo--*/
