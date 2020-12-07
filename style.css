@@ -148,13 +148,16 @@ p {
 
 /*------------------ NAV STYLE ------------------*/
 
+.navbar-brand {
+    margin: 0;
+}
+
 .navbar a {
     font-family: "dr-reg";
     font-size: 1rem;
     color: var(--black) !important;
     text-transform: uppercase;
     padding: 0;
-    margin: 0 auto !important;
 }
 
 .navbar a:hover {
@@ -176,6 +179,8 @@ p {
 .nav-aktiv {
     font-family: "dr-semi" !important;
     border-bottom: solid 3px var(--pink);
+    width: 80px;
+    margin: auto;
 }
 
 .navbar {
@@ -183,14 +188,16 @@ p {
     padding-left: 15px;
 }
 
-/*
-.nav-item {
-    width: 80px;
-}
-*/
-
 #top hr {
     margin-top: 0;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+button:focus {
+    outline: none;
 }
 
 /**************************************************/
