@@ -428,9 +428,6 @@ li.nav-item {
 .big-box {
     background-color: var(--background-white);
     padding: 10px;
-    margin: 10px;
-    position: absolute;
-    bottom: 0px;
 }
 
 .big-box h3 {
@@ -446,19 +443,12 @@ li.nav-item {
 .small-box {
     background-color: var(--background-white);
     padding: 10px;
-    margin: 10px;
-    position: absolute;
-    bottom: 0%;
-    width: 40%
 }
 
 .small-box2 {
     background-color: var(--background-white);
     padding: 10px;
     margin: 10px;
-    position: absolute;
-    bottom: 0%;
-    width: 40%;
 }
 
 .small-box h4,
@@ -913,6 +903,14 @@ img.card-icon.serie-ikon {
         font-size: 2.5rem;
     }
 
+    .small-box,
+    .small-box2 {
+        margin: 10px;
+        position: absolute;
+        bottom: 0%;
+        width: 40%
+    }
+
     .small-box h4,
     .small-box2 h4 {
         font-size: 1rem;
@@ -928,6 +926,12 @@ img.card-icon.serie-ikon {
     .small-box2 .card-icon {
         height: 11px;
         width: 11px;
+    }
+
+    .big-box {
+        margin: 10px;
+        position: absolute;
+        bottom: 0px;
     }
 
     .big-box h3 {
