@@ -103,12 +103,8 @@ async function hentFooter() {
 //Kode til musikafspiller på musiksiden
 //er hentet fra https://codepen.io/abikuk/pen/pGzJGy //
 var track = document.getElementById('track');
-var controlBtn = document.getElementById('play-pause');
 
-controlBtn.addEventListener("click", playPause);
-track.addEventListener("ended", function () {
-    controlBtn.className = "play";
-});
+var controlBtn = document.getElementById('play-pause');
 
 function playPause() {
     if (track.paused) {
@@ -121,3 +117,8 @@ function playPause() {
         controlBtn.className = "play";
     }
 }
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function () {
+    controlBtn.className = "play";
+});

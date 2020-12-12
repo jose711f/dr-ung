@@ -334,6 +334,7 @@ li.nav-item {
 
 .multi-item-carousel {
     overflow: hidden;
+    padding: 0;
 }
 
 .multi-item-carousel .carousel-control-prev,
@@ -370,6 +371,10 @@ li.nav-item {
 .carousel-caption h3 {
     font-size: 1.1rem;
     font-family: "dr-semi";
+}
+
+.minus-padding {
+    padding: 0;
 }
 
 /*--slut nabo--*/
@@ -477,15 +482,9 @@ a:hover.knap {
 
 /*------------------ sections ------------------*/
 
-.pad-container {
-    padding: 15px;
-}
-
-
 .pad-overskrift {
-    padding: 10px 15px 0;
+    padding-top: 40px;
 }
-
 
 /*------------------ button ------------------*/
 
@@ -697,39 +696,22 @@ img.card-icon.serie-ikon {
     font-size: 0.8rem;
 }
 
-.podcast-billede {
-    position: relative;
-}
-
-#serie #player-container #play-pause {
-    cursor: pointer;
-    text-indent: -999999px;
-    height: 40px;
-    width: 40px;
-    background: #999999;
-    background-image: url('http://basichow.com/asserts/images/play.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 15px;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
+div.ekstra-overskrift {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /**************************************************/
 /******************** MUSIK *********************/
 /**************************************************/
 
-#main-musik #player-container #play-pause {
+#player-container #play-pause {
     cursor: pointer;
     text-indent: -999999px;
     height: 15px;
     width: 15px;
     background: #999999;
-    background-image: url('http://basichow.com/asserts/images/play.png');
+    background-image: url(billeder/ui/play.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 5px;
@@ -737,11 +719,19 @@ img.card-icon.serie-ikon {
 }
 
 .play {
-    background-image: url('http://basichow.com/asserts/images/play.png');
+    background-image: url(billeder/ui/play.png);
 }
 
 .pause {
-    background-image: url('http://basichow.com/asserts/images/pause.png') !important;
+    background-image: url(billeder/ui/pause-01.png) !important;
+}
+
+#main-musik .farve a {
+    color: black;
+}
+
+#main-musik .farve a:hover {
+    text-decoration: none;
 }
 
 /**************************************************/
@@ -917,6 +907,20 @@ img.card-icon.serie-ikon {
 
     .big-box h6 {
         font-size: 0.7rem;
+    }
+
+    .pad-container {
+        padding: 15px;
+    }
+
+
+    .pad-overskrift {
+        padding: 10px 15px 0;
+    }
+
+    .minus-padding {
+        padding: 15px;
+        ;
     }
 
 }
