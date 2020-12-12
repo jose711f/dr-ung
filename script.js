@@ -57,38 +57,6 @@ function cookiesSkjul() {
     document.querySelector(".cookie-banner").classList.add("skjul-cookie");
 }
 
-//function klikNav() {
-console.log("hej");
-
-// document.querySelector(".nav-link").addEventListener("click", markerNav);
-
-// sæt en eventlistner på alle
-// document.querySelectorAll(".nav-item").forEach((link) => {
-//Send "e" med til din funktion (elementet du har klikket på"
-//   link.addEventListener("click", function (e) {
-//     markerNav(e);
-//      console.log("send e med");
-// });
-//  });
-
-//}
-
-//function markerNav() {
-console.log("hej2");
-// document.querySelector(".nav-link").classList.remove("nav-aktiv");
-//  document.querySelector(this).classList.add("nav-aktiv");
-
-//Fjern klassen på alle
-//  document.querySelectorAll("li").forEach((link) => {
-//      link.classList.remove("nav-aktiv");
-//   });
-
-//Sæt klassen på den du har klikket på
-//   e.target.classList.add("nav-aktiv");
-
-//}
-
-
 //Kode til karusellen med 1 stor og halve er hentet fra https://stackoverflow.com/questions/20346847/bootstrap-carousel-showing-next-and-previous-image //
 function storKarusel() {
     $('.carousel-item', '.multi-item-carousel').each(function () {
@@ -133,8 +101,6 @@ async function hentFooter() {
 
 
 //Kode til musikafspiller er hentet fra https://codepen.io/abikuk/pen/pGzJGy //
-
-
 var track = document.getElementById('track');
 
 var controlBtn = document.getElementById('play-pause');
