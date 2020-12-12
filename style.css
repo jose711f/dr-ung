@@ -954,7 +954,6 @@ img.card-icon.serie-ikon {
     }
 
     .small-box2 {
-        bottom: 3.2%;
         width: 70%
     }
 
@@ -1025,10 +1024,6 @@ img.card-icon.serie-ikon {
 
     #kanalblok .carousel-row {
         width: 900px;
-    }
-
-    .small-box2 {
-        bottom: 1.4%
     }
 
     .small-box {
