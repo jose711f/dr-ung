@@ -1,32 +1,4 @@
 /**************************************************/
-/****************** CSS INDHOLD *******************/
-/**************************************************/
-/*
-
-1.0 COLORS
-2.0 FONTS
-2.1 Font style
-2.2 Nav style
-3.0 NAVIGATION
-4.0 GENEREL
-4.1 Baggrundsfarver
-4.2 Card style
-4.3 Carousel
-4.4 Dividers next to h2's
-4.5 bokse til ovenpå indhold
-4.6 footer
-4.7 knapper
-5.0 FORSIDE
-5.1 quiz
-x.0 SERIER
-x.0 MUSIK
-x.0 VIDEOER
-x.0 ARTIKEL SINGLEVIEW
-x.x. Media queries
-
-*/
-
-/**************************************************/
 /******************** COLORS **********************/
 /**************************************************/
 
@@ -50,14 +22,6 @@ x.x. Media queries
     --blue: #2d2dc3;
     --creme: #fae6d2;
     --tyrkis: #8ce1d7;
-}
-
-.bg-darkgrey {
-    background-color: var(--background-darkgrey);
-}
-
-.bg-lightgrey {
-    background-color: var(--background-lightgrey);
 }
 
 /**************************************************/
@@ -146,7 +110,10 @@ p {
     color: var(--text-white);
 }
 
-/*------------------ NAV STYLE ------------------*/
+/**************************************************/
+/******************* NAVIGATION *******************/
+/**************************************************/
+
 
 .navbar-brand {
     margin: 0;
@@ -164,10 +131,6 @@ p {
     color: var(--link-hover-color);
     font-family: "dr-semi";
 }
-
-/**************************************************/
-/******************* NAVIGATION *******************/
-/**************************************************/
 
 #drdk {
     background-color: var(--background-darkgrey);
@@ -223,6 +186,10 @@ li.nav-item {
 /**************************************************/
 
 /*--------------- baggrundsfarver ----------------*/
+
+.bg-darkgrey {
+    background-color: var(--background-darkgrey);
+}
 
 .bg-lightgrey {
     background-color: var(--background-lightgrey);
@@ -475,51 +442,74 @@ li.nav-item {
     width: 9px;
 }
 
-/*-------------footer----------*/
 
-#footer div.row {
-    padding: 15px 0;
+/*------------------kategorier knap------------------*/
+#kategorier .row {
+    padding: 15px;
 }
 
-#footer h4 {
-    font-family: "dr-bold";
-    font-size: 1.3rem;
+.kategori {
+    background-color: var(--background-darkgrey);
+    padding: 12px 0;
+    text-align: center;
+    max-width: 49%;
+    margin: 2px auto 2px;
 }
 
-#footer h6 {
-    font-size: 1rem;
-    font-family: "dr-semi";
-    text-transform: none;
-    color: var(--text-darkgrey);
+.knap {
+    color: white;
 }
 
-#footer p.fed {
-    font-size: 1rem;
-    font-family: "dr-semi";
-    text-transform: none;
-    color: var(--text-darkgrey);
-}
-
-#footer p {
-    font-size: 1rem;
+a.knap {
     font-family: "dr-reg";
-    text-transform: none;
-    color: var(--text-darkgrey);
 }
 
-#footer a:hover {
+a:hover.knap {
+    color: var(--text-lightgrey);
     font-family: "dr-semi";
     text-decoration: none;
 }
 
-.some-footer {
-    width: 30px;
-    padding-bottom: 10px;
+
+#banner.container {
+    padding: 0;
 }
 
-.brev-gif {
-    width: 100px;
+/*------------------ sections ------------------*/
+
+.pad-container {
+    padding: 15px;
 }
+
+
+.pad-overskrift {
+    padding: 10px 15px 0;
+}
+
+
+/*------------------ button ------------------*/
+
+button.btn {
+    color: var(--text-lightgrey);
+    font-family: "dr-semi";
+    border-radius: 0;
+    background-color: var(--background-darkgrey);
+    border: none;
+    padding: 8px 20px;
+}
+
+button.btn:hover {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
+
+.btn-info:focus {
+    color: var(--text-white);
+    background-color: var(--green);
+    border: none;
+}
+
 
 
 /**************************************************/
@@ -671,75 +661,7 @@ mark {
 /******************** SERIER *********************/
 /**************************************************/
 
-/*------------------kategorier knap------------------*/
-#kategorier .row {
-    padding: 15px;
-}
-
-.kategori {
-    background-color: var(--background-darkgrey);
-    padding: 12px 0;
-    text-align: center;
-    max-width: 49%;
-    margin: 2px auto 2px;
-}
-
-.knap {
-    color: white;
-}
-
-a.knap {
-    font-family: "dr-reg";
-}
-
-a:hover.knap {
-    color: var(--text-lightgrey);
-    font-family: "dr-semi";
-    text-decoration: none;
-}
-
-
-#banner.container {
-    padding: 0;
-}
-
-/*------------------ sections ------------------*/
-
-.pad-container {
-    padding: 15px;
-}
-
-
-.pad-overskrift {
-    padding: 10px 15px 0;
-}
-
-
-/*------------------ button ------------------*/
-
-button.btn {
-    color: var(--text-lightgrey);
-    font-family: "dr-semi";
-    border-radius: 0;
-    background-color: var(--background-darkgrey);
-    border: none;
-    padding: 8px 20px;
-}
-
-button.btn:hover {
-    color: var(--text-white);
-    background-color: var(--green);
-    border: none;
-}
-
-.btn-info:focus {
-    color: var(--text-white);
-    background-color: var(--green);
-    border: none;
-}
-
-
-/*------------------ENKELT SERIE SIDE------------------*/
+/*---------------ENKELT SERIE SIDE----------------*/
 
 img.card-icon.serie-ikon {
     height: 12px;
@@ -774,7 +696,6 @@ img.card-icon.serie-ikon {
     color: black;
     font-size: 0.8rem;
 }
-
 
 .podcast-billede {
     position: relative;
@@ -874,6 +795,56 @@ img.card-icon.serie-ikon {
 #artikel-indhold {
     max-width: 800px;
 }
+
+/**************************************************/
+/****************** FOOTER *****************/
+/**************************************************/
+
+#footer div.row {
+    padding: 15px 0;
+}
+
+#footer h4 {
+    font-family: "dr-bold";
+    font-size: 1.3rem;
+}
+
+#footer h6 {
+    font-size: 1rem;
+    font-family: "dr-semi";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer p.fed {
+    font-size: 1rem;
+    font-family: "dr-semi";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer p {
+    font-size: 1rem;
+    font-family: "dr-reg";
+    text-transform: none;
+    color: var(--text-darkgrey);
+}
+
+#footer a:hover {
+    font-family: "dr-semi";
+    text-decoration: none;
+}
+
+.some-footer {
+    width: 30px;
+    padding-bottom: 10px;
+}
+
+.brev-gif {
+    width: 100px;
+}
+
+
 
 /**************************************************/
 /****************** MEDIA QUERIES *****************/
