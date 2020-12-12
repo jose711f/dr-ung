@@ -186,6 +186,8 @@ p {
 .navbar {
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 0;
 }
 
 #top hr {
@@ -194,6 +196,10 @@ p {
 
 button.navbar-toggler {
     border: none;
+}
+
+span.navbar-toggler-icon {
+    background-image: url(billeder/ui/burgermenu.svg) !important;
 }
 
 button:focus {

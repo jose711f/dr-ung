@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="shortcut icon" href="billeder/ui/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="billeder/ui/favicon.ico" type="image/x-icon">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZYNBCVR5E"></script>
     <script>
@@ -26,7 +29,6 @@
         gtag('js', new Date());
 
         gtag('config', 'G-6ZYNBCVR5E');
-
     </script>
 
 </head>
@@ -72,9 +74,14 @@
                             <img src="billeder/card-billeder/musik/podcast_curling-klubben.jpg" class="img-fluid" alt="Curlingklubben">
                             <div class="small-box">
                                 <h4 class="dark-text">Curlingklubben</h4>
-                                <div class="row">
-                                    <img src="billeder/ui/radio-01.png" class="card-icon ml-3" alt="artikel ikon">
-                                    <h6 class="ml-2"> musik | podcast</h6>
+                                <div class="row pr-5">
+                                    <audio id="track">
+                                        <source src="video/Lydoptagelse_curlingklubben.mp3" />
+                                    </audio>
+                                    <div id="player-container">
+                                        <div id="play-pause" class="play">Play</div>
+                                    </div>
+                                    <h6 class="ml-2"> Afspil </h6>
                                 </div>
                             </div>
                         </a>
@@ -85,14 +92,9 @@
                             <img src="billeder/card-billeder/musik/podcast_forsiden-af-medaljen.jpeg" class="img-fluid" alt="Forsiden af medaljen">
                             <div class="small-box2">
                                 <h4 class="dark-text">Forsiden af medaljen</h4>
-                                <div class="row pr-5">
-                                    <audio id="track">
-                                        <source src="lyd/Eyes%20on%20You%20(Sting)%20-%20Network%20415.mp3" type="audio/mpeg" />
-                                    </audio>
-                                    <div id="player-container">
-                                        <div id="play-pause" class="play">Play</div>
-                                    </div>
-                                    <h6 class="ml-2"> Afspil </h6>
+                                <div class="row">
+                                    <img src="billeder/ui/radio-01.png" class="card-icon ml-3" alt="artikel ikon">
+                                    <h6 class="ml-2"> musik | podcast</h6>
                                 </div>
                             </div>
                         </a>
@@ -737,6 +739,4 @@
 
     <script src="script.js"></script>
 
-</body>
-
-</html>
+</body></html>
