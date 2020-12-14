@@ -205,10 +205,15 @@ li.nav-item {
 
 .bg-element {
     background-image: url(billeder/ui/5.element-01.png);
+    background-size: contain;
 }
 
 .bg-none {
     background-color: transparent;
+}
+
+hr {
+    margin-bottom: 0 !important;
 }
 
 /*------------------ CARD STYLE ------------------*/
