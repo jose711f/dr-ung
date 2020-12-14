@@ -203,6 +203,14 @@ li.nav-item {
     background-color: var(--blue);
 }
 
+.bg-element {
+    background-image: url(billeder/ui/5.element-01.png);
+}
+
+.bg-none {
+    background-color: transparent;
+}
+
 /*------------------ CARD STYLE ------------------*/
 
 .card {
