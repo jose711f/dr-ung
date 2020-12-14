@@ -242,12 +242,24 @@ li.nav-item {
 .kanalinfo {
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%
+}
+
+.bund-1 {
+    display: flex;
+}
+
+.bund-2 {
+    display: flex;
 }
 
 .card-img-top {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
 
 /*----------------- Carousel style ---------------*/
 
