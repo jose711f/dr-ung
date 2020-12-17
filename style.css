@@ -514,23 +514,27 @@ a:hover.knap {
 /*------------------ button ------------------*/
 
 button.btn {
-    color: var(--text-lightgrey);
-    font-family: "dr-semi";
+    color: var(--text-white);
+    font-family: "dr-reg";
+    font-size: 0.9rem;
     border-radius: 0;
     background-color: var(--background-darkgrey);
     border: none;
     padding: 8px 20px;
+    text-transform: uppercase;
+    width: 110px;
 }
 
 button.btn:hover {
-    color: var(--text-white);
-    background-color: var(--green);
+    color: var(--text-lightgrey);
+    font-family: "dr-semi";
     border: none;
+    background-color: var(--background-darkgrey);
 }
 
 .btn-info:focus {
     color: var(--text-white);
-    background-color: var(--green);
+    background-color: var(--background-darkgrey);
     border: none;
 }
 
