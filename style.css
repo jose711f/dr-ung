@@ -115,10 +115,6 @@ p {
 /**************************************************/
 
 
-.navbar-brand {
-    margin: 0;
-}
-
 .navbar a {
     font-family: "dr-reg";
     font-size: 1rem;
@@ -136,7 +132,12 @@ p {
     background-color: var(--background-darkgrey);
     text-transform: uppercase;
     font-family: "dr-semi";
-    padding: 5px 0;
+    padding: 5px 15px;
+}
+
+#drdk a:hover {
+    color: var(--text-lightgrey);
+    text-decoration: none;
 }
 
 .nav-aktiv {
@@ -151,6 +152,10 @@ p {
     padding-left: 15px;
     padding-top: 17px;
     padding-bottom: 0;
+}
+
+.navbar-brand {
+    margin: 0;
 }
 
 #top hr {
@@ -508,7 +513,7 @@ a:hover.knap {
 /*------------------ sections ------------------*/
 
 .pad-overskrift {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 /*------------------ button ------------------*/
@@ -805,6 +810,10 @@ div.ekstra-overskrift {
     width: 20px;
 }
 
+.dele-knap img {
+    width: 32px;
+}
+
 .artikel-faktaboks {
     background-color: var(--background-lightgrey);
     border-left: solid var(--pink) 5px;
@@ -938,23 +947,27 @@ div.ekstra-overskrift {
         font-size: 0.7rem;
     }
 
-    .pad-container {
-        padding: 15px;
-    }
-
-
-    .pad-overskrift {
-        padding: 10px 15px 0;
-    }
-
     .minus-padding {
         padding: 15px;
         ;
     }
 
+    .pad-container {
+        padding: 15px;
+    }
+
+    .pad-overskrift {
+        padding: 10px 15px 0;
+    }
+
 }
 
 @media (min-width: 768px) {
+
+    .pad-overskrift {
+        padding: 10px 15px 0;
+    }
+
     .carousel-item .card {
         width: 30%;
     }
@@ -985,9 +998,9 @@ div.ekstra-overskrift {
     #nav-nyheder {
         margin: 0;
     }
-
-
 }
+
+
 
 @media (min-width: 992px) {
 
